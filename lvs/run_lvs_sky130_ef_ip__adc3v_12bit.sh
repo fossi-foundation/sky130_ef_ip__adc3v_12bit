@@ -2,7 +2,7 @@
 
 export NETGEN_COLUMNS=50
 
-project=adc0_subsystem
+project=sky130_ef_ip__adc3v_12bit
 
 echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
 echo ${PDK:=sky130A} > /dev/null

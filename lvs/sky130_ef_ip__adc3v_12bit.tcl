@@ -3,7 +3,7 @@
 if {[catch {set PDK_ROOT $::env(PDK_ROOT)}]} {set PDK_ROOT /usr/local/share/pdk}
 if {[catch {set PDK $::env(PDK)}]} {set PDK sky130A}
 
-set cellname adc0_subsystem
+set cellname sky130_ef_ip__adc3v_12bit
 
 set pdklib ${PDK_ROOT}/${PDK}
 set techlibs ${pdklib}/libs.tech

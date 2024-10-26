@@ -192,7 +192,7 @@ C {devices/lab_pin.sym} -280 10 0 0 {name=p23 sig_type=std_logic lab=d5}
 C {devices/vsource.sym} -900 340 0 0 {name=V15 value="PWL(0 0 900n 0 905n 1.8 1000n 1.8 1005n 1.8)" savecurrent=false}
 C {devices/lab_pin.sym} -860 310 0 1 {name=p24 sig_type=std_logic lab=d4}
 C {devices/lab_pin.sym} -280 -10 0 0 {name=p25 sig_type=std_logic lab=d4}
-C {devices/vsource.sym} -900 420 0 0 {name=V16 value="PWL(0 0 1000n 0 1005n 1.8 1100n 1.8 1105n 0)" savecurrent=false}
+C {devices/vsource.sym} -900 420 0 0 {name=V16 value="PWL(0 0 1000n 0 1005n 1.8 1100n 1.8 1105n 1.8)" savecurrent=false}
 C {devices/lab_pin.sym} -860 390 0 1 {name=p26 sig_type=std_logic lab=d3}
 C {devices/lab_pin.sym} -280 -30 0 0 {name=p27 sig_type=std_logic lab=d3}
 C {devices/vsource.sym} -900 500 0 0 {name=V17 value="PWL(0 0 1100n 0 1105n 1.8 1200n 1.8 1205n 0)" savecurrent=false}

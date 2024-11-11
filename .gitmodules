@@ -4,3 +4,6 @@
 [submodule "dependencies/sky130_ef_ip__cdac3v_12bit"]
 	path = dependencies/sky130_ef_ip__cdac3v_12bit
 	url = ../sky130_ef_ip__cdac3v_12bit.git
+[submodule "dependencies/EF_ADC1008A"]
+	path = dependencies/EF_ADC1008A
+	url = ../../efabless/EF_ADC1008A.git

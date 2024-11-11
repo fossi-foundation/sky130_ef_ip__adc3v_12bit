@@ -1,7 +1,0 @@
-Cosimulation using ngspice-42 (or newer) and verilator:
-
-Following the example in the ngspice-42 source code at
-examples/xspice/verilator.
-
-(1) run:
-	 ngspice vlnggen adc_testbench.v

@@ -1,1 +1,3 @@
 runs/
+*_obj_dir
+*.so

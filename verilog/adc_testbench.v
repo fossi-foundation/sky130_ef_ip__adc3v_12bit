@@ -11,6 +11,8 @@
 // November 10, 2024
 //--------------------------------------------------------
 
+`timescale 1ns/1ps
+
 // The SAR controller is defined here:
 `include "../dependencies/EF_ADC1008A/hdl/rtl/EF_ADCS1008A.v"
 
@@ -33,25 +35,25 @@ module adc_testbench(en, dac_rst, sample_n, data, cmp);
     // Stimulus
     initial begin
 	$display("ADC simulation starting.");
-	clk <= 1'b0;
-	rst_n <= 1'b0;
-	soc <= 1'b0;
-	swidth <= 4'd4;
-	en <= 1'b0;
+	clk = 1'b0;
+	rst_n = 1'b0;
+	soc = 1'b0;
+	swidth = 4'd4;
+	en = 1'b0;
 
 	// Bring system out of reset
 	#225;
-	rst_n <= 1'b1;
+	rst_n = 1'b1;
 
 	#500;
 	// Enable the ADC
-	en <= 1'b1; 
+	en = 1'b1; 
 
 	#500;
 	// Start a conversion
-	soc <= 1'b1;
+	soc = 1'b1;
 	#200;
-	soc <= 1'b0;
+	soc = 1'b0;
 
 	// Keep running clock until the end of the conversion
 	#10000;

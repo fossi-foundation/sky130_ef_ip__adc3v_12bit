@@ -14,9 +14,8 @@
 `timescale 1ns/1ps
 
 // The SAR controller is defined here:
-// `include "../dependencies/EF_ADC1008A/hdl/rtl/EF_ADCS1008A.v"
-// Update:  The SAR controller lower-level routine has been moved to its own file:
-`include "../dependencies/EF_ADC1008A/hdl/rtl/sar_ctrl.v"
+// `include "../dependencies/EF_ADC1008A/hdl/rtl/sar_ctrl.v"
+`include "sar_ctrl.v"
 
 module adc_testbench(en, dac_rst, sample_n, data, cmp);
    input wire   cmp;		// Comparator output
@@ -65,7 +64,7 @@ module adc_testbench(en, dac_rst, sample_n, data, cmp);
 
     // Clock
     always begin
-	#100;
+	#50;
 	clk <= ~clk;
     end
 

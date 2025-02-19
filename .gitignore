@@ -1,3 +1,5 @@
 runs/
+simulation/
+sky130_drc.txt
 *_obj_dir
 *.so

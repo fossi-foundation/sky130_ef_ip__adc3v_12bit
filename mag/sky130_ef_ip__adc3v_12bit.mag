@@ -368,11 +368,11 @@ use cv3_via_3cut  cv3_via_3cut_133
 timestamp 1719452912
 transform 1 0 165723 0 1 -105170
 box 10601 106968 10663 107172
-use sky130_ef_ip__cdac3v_12bit  sky130_ef_ip__cdac3v_12bit_0 ../dependencies/sky130_ef_ip__cdac3v_12bit/mag
+use sky130_ef_ip__cdac3v_12bit  sky130_ef_ip__cdac3v_12bit_0 ../ip/sky130_ef_ip__cdac3v_12bit/mag
 timestamp 1731119720
 transform 1 0 81345 0 -1 24388
 box 52849 -36568 89580 15691
-use sky130_ef_ip__scomp3v  sky130_ef_ip__scomp3v_0 ../dependencies/sky130_ef_ip__ccomp3v/mag
+use sky130_ef_ip__scomp3v  sky130_ef_ip__scomp3v_0 ../ip/sky130_ef_ip__ccomp3v/mag
 timestamp 1731119720
 transform -1 0 187546 0 -1 32814
 box -58 -3122 11186 4094

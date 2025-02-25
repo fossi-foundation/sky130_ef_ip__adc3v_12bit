@@ -1,4 +1,117 @@
 
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5             |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5             
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+3                                                   |3                                                   
+4                                                   |4                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5             |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5             
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+3                                                   |3                                                   
+4                                                   |4                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1               |Circuit 2: sky130_fd_pr__cap_mim_m3_1               
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_2 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_2 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_2               |Circuit 2: sky130_fd_pr__cap_mim_m3_2               
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_2 and sky130_fd_pr__cap_mim_m3_2 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_05v0_nvt and Circuit 2 cell sky130_fd_pr__nfet_05v0_nvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_05v0_nvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_05v0_nvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_05v0_nvt              |Circuit 2: sky130_fd_pr__nfet_05v0_nvt              
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+3                                                   |3                                                   
+4                                                   |4                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_05v0_nvt and sky130_fd_pr__nfet_05v0_nvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_high_po_1p41 and Circuit 2 cell sky130_fd_pr__res_high_po_1p41 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_high_po_1p41 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_high_po_1p41 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_high_po_1p41           |Circuit 2: sky130_fd_pr__res_high_po_1p41           
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+3                                                   |3                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_high_po_1p41 and sky130_fd_pr__res_high_po_1p41 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_N9BQ2J in circuit simple_analog_switch_2 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLJ6Y6 in circuit simple_analog_switch_2 (0)(1 instance)
+
+Class simple_analog_switch_2 (0):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: simple_analog_switch_2                   |Circuit 2: simple_analog_switch_2                   
+----------------------------------------------------|----------------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (4->1)                 |sky130_fd_pr__nfet_g5v0d10v5 (1)                    
+sky130_fd_pr__pfet_g5v0d10v5 (8->1)                 |sky130_fd_pr__pfet_g5v0d10v5 (1)                    
+Number of devices: 2                                |Number of devices: 2                                
+Number of nets: 6                                   |Number of nets: 6                                   
+---------------------------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: simple_analog_switch_2                   |Circuit 2: simple_analog_switch_2                   
+----------------------------------------------------|----------------------------------------------------
+on                                                  |on                                                  
+vss                                                 |vss                                                 
+off                                                 |off                                                 
+vdd                                                 |vdd                                                 
+out                                                 |out                                                 
+in                                                  |in                                                  
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes simple_analog_switch_2 and simple_analog_switch_2 are equivalent.
+
 Class sky130_fd_sc_hvl__inv_2 (0):  Merged 2 parallel devices.
 Class sky130_fd_sc_hvl__inv_2 (1):  Merged 2 parallel devices.
 Subcircuit summary:
@@ -23,6 +136,207 @@ VNB                                                 |VNB
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hvl__inv_2 and sky130_fd_sc_hvl__inv_2 are equivalent.
+
+Class sky130_fd_sc_hvl__decap_8 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hvl__decap_8 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hvl__decap_8                |Circuit 2: sky130_fd_sc_hvl__decap_8                
+----------------------------------------------------|----------------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (2->1)                 |sky130_fd_pr__pfet_g5v0d10v5 (2->1)                 
+sky130_fd_pr__nfet_g5v0d10v5 (2->1)                 |sky130_fd_pr__nfet_g5v0d10v5 (2->1)                 
+Number of devices: 2                                |Number of devices: 2                                
+Number of nets: 4                                   |Number of nets: 4                                   
+---------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hvl__decap_8                |Circuit 2: sky130_fd_sc_hvl__decap_8                
+----------------------------------------------------|----------------------------------------------------
+VNB                                                 |VNB                                                 
+VPB                                                 |VPB                                                 
+VGND                                                |VGND                                                
+VPWR                                                |VPWR                                                
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hvl__decap_8 and sky130_fd_sc_hvl__decap_8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hvl__nor2_1                 |Circuit 2: sky130_fd_sc_hvl__nor2_1                 
+----------------------------------------------------|----------------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (2)                    |sky130_fd_pr__pfet_g5v0d10v5 (2)                    
+sky130_fd_pr__nfet_g5v0d10v5 (2)                    |sky130_fd_pr__nfet_g5v0d10v5 (2)                    
+Number of devices: 4                                |Number of devices: 4                                
+Number of nets: 8                                   |Number of nets: 8                                   
+---------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hvl__nor2_1                 |Circuit 2: sky130_fd_sc_hvl__nor2_1                 
+----------------------------------------------------|----------------------------------------------------
+Y                                                   |Y                                                   
+VPWR                                                |VPWR                                                
+A                                                   |A                                                   
+VPB                                                 |VPB                                                 
+VGND                                                |VGND                                                
+VNB                                                 |VNB                                                 
+B                                                   |B                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hvl__nor2_1 and sky130_fd_sc_hvl__nor2_1 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__diode_pw2nd_11v0 and Circuit 2 cell sky130_fd_pr__diode_pw2nd_11v0 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__diode_pw2nd_11v0 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__diode_pw2nd_11v0 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__diode_pw2nd_11v0           |Circuit 2: sky130_fd_pr__diode_pw2nd_11v0           
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__diode_pw2nd_11v0 and sky130_fd_pr__diode_pw2nd_11v0 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8                  |Circuit 2: sky130_fd_pr__nfet_01v8                  
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+3                                                   |3                                                   
+4                                                   |4                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_hvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_hvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt              |Circuit 2: sky130_fd_pr__pfet_01v8_hvt              
+----------------------------------------------------|----------------------------------------------------
+1                                                   |1                                                   
+2                                                   |2                                                   
+3                                                   |3                                                   
+4                                                   |4                                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_hvt and sky130_fd_pr__pfet_01v8_hvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLHCT5 in circuit simple_analog_switch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KL97Y6 in circuit simple_analog_switch (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_EJGQFX in circuit simple_analog_switch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8 in circuit simple_analog_switch (0)(2 instances)
+
+Class simple_analog_switch (0):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: simple_analog_switch                     |Circuit 2: simple_analog_switch                     
+----------------------------------------------------|----------------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (8->3)                 |sky130_fd_pr__pfet_g5v0d10v5 (3)                    
+sky130_fd_pr__nfet_g5v0d10v5 (4->3)                 |sky130_fd_pr__nfet_g5v0d10v5 (3)                    
+Number of devices: 6                                |Number of devices: 6                                
+Number of nets: 6                                   |Number of nets: 6                                   
+---------------------------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: simple_analog_switch                     |Circuit 2: simple_analog_switch                     
+----------------------------------------------------|----------------------------------------------------
+on                                                  |on                                                  
+vss                                                 |vss                                                 
+off                                                 |off                                                 
+vdd                                                 |vdd                                                 
+in                                                  |in                                                  
+out                                                 |out                                                 
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes simple_analog_switch and simple_analog_switch are equivalent.
+
+Cell EF_AMUX21x (0) disconnected node: vdd1p8
+Class EF_AMUX21x (0):  Merged 3 parallel devices.
+Class EF_AMUX21x (1):  Merged 3 parallel devices.
+Cell EF_AMUX21x (0) disconnected node: vdd1p8
+Subcircuit summary:
+Circuit 1: EF_AMUX21x                               |Circuit 2: EF_AMUX21x                               
+----------------------------------------------------|----------------------------------------------------
+simple_analog_switch_2 (3)                          |simple_analog_switch_2 (3)                          
+sky130_fd_sc_hvl__inv_2 (5)                         |sky130_fd_sc_hvl__inv_2 (5)                         
+sky130_fd_sc_hvl__decap_8 (4->1)                    |sky130_fd_sc_hvl__decap_8 (4->1)                    
+sky130_fd_sc_hvl__nor2_1 (2)                        |sky130_fd_sc_hvl__nor2_1 (2)                        
+Number of devices: 11                               |Number of devices: 11                               
+Number of nets: 16                                  |Number of nets: 16                                  
+---------------------------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: EF_AMUX21x                               |Circuit 2: EF_AMUX21x                               
+----------------------------------------------------|----------------------------------------------------
+dvss                                                |dvss                                                
+vdd3p3                                              |vdd3p3                                              
+cm                                                  |cm                                                  
+b                                                   |b                                                   
+a                                                   |a                                                   
+sel                                                 |sel                                                 
+vss                                                 |vss                                                 
+vo                                                  |vo                                                  
+selcm                                               |selcm                                               
+vdd1p8                                              |(no matching pin)                                   
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes EF_AMUX21x and EF_AMUX21x are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hvl__decap_4                |Circuit 2: sky130_fd_sc_hvl__decap_4                
+----------------------------------------------------|----------------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (1)                    |sky130_fd_pr__nfet_g5v0d10v5 (1)                    
+sky130_fd_pr__pfet_g5v0d10v5 (1)                    |sky130_fd_pr__pfet_g5v0d10v5 (1)                    
+Number of devices: 2                                |Number of devices: 2                                
+Number of nets: 4                                   |Number of nets: 4                                   
+---------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hvl__decap_4                |Circuit 2: sky130_fd_sc_hvl__decap_4                
+----------------------------------------------------|----------------------------------------------------
+VNB                                                 |VNB                                                 
+VPB                                                 |VPB                                                 
+VGND                                                |VGND                                                
+VPWR                                                |VPWR                                                
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hvl__decap_4 and sky130_fd_sc_hvl__decap_4 are equivalent.
+
+Cell sky130_fd_sc_hvl__diode_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hvl__diode_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hvl__diode_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hvl__diode_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hvl__diode_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hvl__diode_2 (1) disconnected node: VPWR
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hvl__diode_2                |Circuit 2: sky130_fd_sc_hvl__diode_2                
+----------------------------------------------------|----------------------------------------------------
+sky130_fd_pr__diode_pw2nd_11v0 (1)                  |sky130_fd_pr__diode_pw2nd_11v0 (1)                  
+Number of devices: 1                                |Number of devices: 1                                
+Number of nets: 2                                   |Number of nets: 2                                   
+---------------------------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hvl__diode_2                |Circuit 2: sky130_fd_sc_hvl__diode_2                
+----------------------------------------------------|----------------------------------------------------
+VNB                                                 |VNB                                                 
+DIODE                                               |DIODE                                               
+VGND                                                |VGND                                                
+VPB                                                 |VPB                                                 
+VPWR                                                |VPWR                                                
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hvl__diode_2 and sky130_fd_sc_hvl__diode_2 are equivalent.
 
 Class sky130_fd_sc_hvl__lsbuflv2hv_1 (0):  Merged 8 parallel devices.
 Class sky130_fd_sc_hvl__lsbuflv2hv_1 (1):  Merged 8 parallel devices.
@@ -55,439 +369,137 @@ Net: VPWR_uq0                                       |(no matching net)
   sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1            |                                                    
 ---------------------------------------------------------------------------------------------------------
 Netlists do not match.
+Port matching may fail to disambiguate symmetries.
   Flattening non-matched subcircuits sky130_fd_sc_hvl__lsbuflv2hv_1 sky130_fd_sc_hvl__lsbuflv2hv_1
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLHCT5 in circuit simple_analog_switch (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KL97Y6 in circuit simple_analog_switch (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_EJGQFX in circuit simple_analog_switch (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8 in circuit simple_analog_switch (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_CPKWZQ in circuit comparator_high_gain (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_6THU7R in circuit comparator_high_gain (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_R6PXNO in circuit comparator_high_gain (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_25MXQV in circuit comparator_high_gain (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_05v0_nvt_N7RQJ6 in circuit comparator_high_gain (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_3P3PJP in circuit comparator_high_gain (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_CBUN3Q in circuit comparator_high_gain (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_5FCQ7L in circuit comparator_high_gain (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_VR3TSB in circuit comparator_high_gain (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_D5V3WB in circuit comparator_high_gain (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_TEGW2X in circuit comparator_high_gain (0)(1 instance)
 
-Class simple_analog_switch (0):  Merged 6 parallel devices.
+Cell comparator_high_gain (0) disconnected node: m2_4679_n3224#
+Removing zero-valued device vsrc from cell comparator_high_gain (1) makes a better match
+Removing zero-valued device vsrc from cell comparator_high_gain (1) makes a better match
+Making another compare attempt.
+
+Cell comparator_high_gain (0) disconnected node: m2_4679_n3224#
+Class comparator_high_gain (0):  Merged 33 parallel devices.
+Cell comparator_high_gain (0) disconnected node: m2_4679_n3224#
 Subcircuit summary:
-Circuit 1: simple_analog_switch                     |Circuit 2: simple_analog_switch                     
+Circuit 1: comparator_high_gain                     |Circuit 2: comparator_high_gain                     
 ----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__pfet_g5v0d10v5 (8->3)                 |sky130_fd_pr__pfet_g5v0d10v5 (3)                    
-sky130_fd_pr__nfet_g5v0d10v5 (4->3)                 |sky130_fd_pr__nfet_g5v0d10v5 (3)                    
-Number of devices: 6                                |Number of devices: 6                                
-Number of nets: 6                                   |Number of nets: 6                                   
+sky130_fd_pr__pfet_g5v0d10v5 (12->6)                |sky130_fd_pr__pfet_g5v0d10v5 (9->6)                 
+sky130_fd_pr__nfet_g5v0d10v5 (15->6)                |sky130_fd_pr__nfet_g5v0d10v5 (14->6)                
+sky130_fd_pr__nfet_05v0_nvt (20->2)                 |sky130_fd_pr__nfet_05v0_nvt (20->2)                 
+Number of devices: 14                               |Number of devices: 14                               
+Number of nets: 16                                  |Number of nets: 16                                  
 ---------------------------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
+Netlists match uniquely with port errors.
 
 Subcircuit pins:
-Circuit 1: simple_analog_switch                     |Circuit 2: simple_analog_switch                     
+Circuit 1: comparator_high_gain                     |Circuit 2: comparator_high_gain                     
 ----------------------------------------------------|----------------------------------------------------
-on                                                  |on                                                  
-vss                                                 |vss                                                 
-off                                                 |off                                                 
-vdd                                                 |vdd                                                 
-in                                                  |in                                                  
-out                                                 |out                                                 
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes simple_analog_switch and simple_analog_switch are equivalent.
-
-Subcircuit summary:
-Circuit 1: sky130_fd_sc_hvl__decap_4                |Circuit 2: sky130_fd_sc_hvl__decap_4                
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__nfet_g5v0d10v5 (1)                    |sky130_fd_pr__nfet_g5v0d10v5 (1)                    
-sky130_fd_pr__pfet_g5v0d10v5 (1)                    |sky130_fd_pr__pfet_g5v0d10v5 (1)                    
-Number of devices: 2                                |Number of devices: 2                                
-Number of nets: 4                                   |Number of nets: 4                                   
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hvl__decap_4                |Circuit 2: sky130_fd_sc_hvl__decap_4                
-----------------------------------------------------|----------------------------------------------------
-VNB                                                 |VNB                                                 
-VPB                                                 |VPB                                                 
-VGND                                                |VGND                                                
-VPWR                                                |VPWR                                                
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hvl__decap_4 and sky130_fd_sc_hvl__decap_4 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_SF7DK5 in circuit minimum_analog_switch (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_VDJU7P in circuit minimum_analog_switch (0)(1 instance)
-
-Cell minimum_analog_switch (0) disconnected node: vdd
-Cell minimum_analog_switch (1) disconnected node: vdd
-Class minimum_analog_switch (0):  Merged 1 parallel devices.
-Cell minimum_analog_switch (0) disconnected node: vdd
-Cell minimum_analog_switch (1) disconnected node: vdd
-Subcircuit summary:
-Circuit 1: minimum_analog_switch                    |Circuit 2: minimum_analog_switch                    
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__nfet_g5v0d10v5 (4->3)                 |sky130_fd_pr__nfet_g5v0d10v5 (3)                    
-Number of devices: 3                                |Number of devices: 3                                
-Number of nets: 5                                   |Number of nets: 5                                   
----------------------------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: minimum_analog_switch                    |Circuit 2: minimum_analog_switch                    
-----------------------------------------------------|----------------------------------------------------
-on                                                  |on                                                  
-off                                                 |off                                                 
-vss                                                 |vss                                                 
-out                                                 |out                                                 
-in                                                  |in                                                  
-vdd                                                 |vdd                                                 
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes minimum_analog_switch and minimum_analog_switch are equivalent.
-
-Cell sky130_fd_sc_hvl__diode_2 (0) disconnected node: VGND
-Cell sky130_fd_sc_hvl__diode_2 (0) disconnected node: VPB
-Cell sky130_fd_sc_hvl__diode_2 (0) disconnected node: VPWR
-Cell sky130_fd_sc_hvl__diode_2 (1) disconnected node: VGND
-Cell sky130_fd_sc_hvl__diode_2 (1) disconnected node: VPB
-Cell sky130_fd_sc_hvl__diode_2 (1) disconnected node: VPWR
-Subcircuit summary:
-Circuit 1: sky130_fd_sc_hvl__diode_2                |Circuit 2: sky130_fd_sc_hvl__diode_2                
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__diode_pw2nd_11v0 (1)                  |sky130_fd_pr__diode_pw2nd_11v0 (1)                  
-Number of devices: 1                                |Number of devices: 1                                
-Number of nets: 2                                   |Number of nets: 2                                   
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hvl__diode_2                |Circuit 2: sky130_fd_sc_hvl__diode_2                
-----------------------------------------------------|----------------------------------------------------
-VNB                                                 |VNB                                                 
-DIODE                                               |DIODE                                               
-VGND                                                |VGND                                                
-VPB                                                 |VPB                                                 
-VPWR                                                |VPWR                                                
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hvl__diode_2 and sky130_fd_sc_hvl__diode_2 are equivalent.
-
-Class sky130_fd_sc_hd__inv_2 (0):  Merged 2 parallel devices.
-Class sky130_fd_sc_hd__inv_2 (1):  Merged 2 parallel devices.
-Subcircuit summary:
-Circuit 1: sky130_fd_sc_hd__inv_2                   |Circuit 2: sky130_fd_sc_hd__inv_2                   
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__pfet_01v8_hvt (2->1)                  |sky130_fd_pr__pfet_01v8_hvt (2->1)                  
-sky130_fd_pr__nfet_01v8 (2->1)                      |sky130_fd_pr__nfet_01v8 (2->1)                      
-Number of devices: 2                                |Number of devices: 2                                
-Number of nets: 6                                   |Number of nets: 6                                   
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__inv_2                   |Circuit 2: sky130_fd_sc_hd__inv_2                   
-----------------------------------------------------|----------------------------------------------------
-VGND                                                |VGND                                                
-VNB                                                 |VNB                                                 
-VPWR                                                |VPWR                                                
-VPB                                                 |VPB                                                 
-Y                                                   |Y                                                   
-A                                                   |A                                                   
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__inv_2 and sky130_fd_sc_hd__inv_2 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__diode_pw2nd_05v5_FT76RJ in circuit simple_analog_switch_ena1v8 (0)(1 instance)
-
-Class simple_analog_switch_ena1v8 (0):  Merged 1 parallel devices.
-Class simple_analog_switch_ena1v8 (1):  Merged 1 parallel devices.
-Subcircuit summary:
-Circuit 1: simple_analog_switch_ena1v8              |Circuit 2: simple_analog_switch_ena1v8              
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__diode_pw2nd_05v5 (1)                  |sky130_fd_pr__diode_pw2nd_05v5 (1)                  
-sky130_fd_sc_hvl__inv_2 (2)                         |sky130_fd_sc_hvl__inv_2 (2)                         
-sky130_fd_pr__nfet_g5v0d10v5 (12->4)                |sky130_fd_pr__nfet_g5v0d10v5 (12->4)                
-sky130_fd_pr__pfet_g5v0d10v5 (4)                    |sky130_fd_pr__pfet_g5v0d10v5 (4)                    
-sky130_fd_pr__nfet_01v8 (2)                         |sky130_fd_pr__nfet_01v8 (2)                         
-sky130_fd_pr__pfet_01v8_hvt (2)                     |sky130_fd_pr__pfet_01v8_hvt (2)                     
-simple_analog_switch (1)                            |simple_analog_switch (1)                            
-sky130_fd_sc_hvl__decap_4 (2->1)                    |sky130_fd_sc_hvl__decap_4 (2->1)                    
-Number of devices: 17                               |Number of devices: 17                               
-Number of nets: 15                                  |Number of nets: 15                                  
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: simple_analog_switch_ena1v8              |Circuit 2: simple_analog_switch_ena1v8              
-----------------------------------------------------|----------------------------------------------------
-avss                                                |avss                                                
-out                                                 |out                                                 
-in                                                  |in                                                  
-dvdd                                                |dvdd                                                
-avdd                                                |avdd                                                
-on                                                  |on                                                  
-dvss                                                |dvss                                                
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes simple_analog_switch_ena1v8 and simple_analog_switch_ena1v8 are equivalent.
-
-Subcircuit summary:
-Circuit 1: minimal_n_switch_ena1v8                  |Circuit 2: minimal_n_switch_ena1v8                  
-----------------------------------------------------|----------------------------------------------------
-minimum_analog_switch (1)                           |minimum_analog_switch (1)                           
-sky130_fd_sc_hvl__inv_2 (2)                         |sky130_fd_sc_hvl__inv_2 (2)                         
-sky130_fd_pr__nfet_g5v0d10v5 (12->4)                |sky130_fd_pr__nfet_g5v0d10v5 (12->4)                
-sky130_fd_pr__pfet_g5v0d10v5 (4)                    |sky130_fd_pr__pfet_g5v0d10v5 (4)                    
-sky130_fd_pr__nfet_01v8 (2)                         |sky130_fd_pr__nfet_01v8 (2)                         
-sky130_fd_pr__pfet_01v8_hvt (2)                     |sky130_fd_pr__pfet_01v8_hvt (2)                     
-sky130_fd_sc_hvl__diode_2 (1)                       |sky130_fd_sc_hvl__diode_2 (1)                       
-sky130_fd_sc_hvl__decap_4 (1)                       |sky130_fd_sc_hvl__decap_4 (1)                       
-Number of devices: 17                               |Number of devices: 17                               
-Number of nets: 15                                  |Number of nets: 15                                  
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: minimal_n_switch_ena1v8                  |Circuit 2: minimal_n_switch_ena1v8                  
-----------------------------------------------------|----------------------------------------------------
-dvdd                                                |dvdd                                                
-dvss                                                |dvss                                                
-avdd                                                |avdd                                                
-out                                                 |out                                                 
-in                                                  |in                                                  
-avss                                                |avss                                                
-on                                                  |on                                                  
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes minimal_n_switch_ena1v8 and minimal_n_switch_ena1v8 are equivalent.
-
-Subcircuit summary:
-Circuit 1: EF_AMUX21x                               |Circuit 2: EF_AMUX21x                               
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_sc_hd__inv_2 (1)                          |sky130_fd_sc_hd__inv_2 (1)                          
-simple_analog_switch_ena1v8 (2)                     |simple_analog_switch_ena1v8 (2)                     
-Number of devices: 3                                |Number of devices: 3                                
-Number of nets: 9                                   |Number of nets: 9                                   
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: EF_AMUX21x                               |Circuit 2: EF_AMUX21x                               
-----------------------------------------------------|----------------------------------------------------
-b                                                   |b                                                   
-a                                                   |a                                                   
-vdd1p8                                              |vdd1p8                                              
-dvss                                                |dvss                                                
-vss                                                 |vss                                                 
-sel                                                 |sel                                                 
-vo                                                  |vo                                                  
-vdd3p3                                              |vdd3p3                                              
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes EF_AMUX21x and EF_AMUX21x are equivalent.
-
-Class comparator_bias (0):  Merged 6 parallel devices.
-Class comparator_bias (0):  Merged 6 series devices.
-Subcircuit summary:
-Circuit 1: comparator_bias                          |Circuit 2: comparator_bias                          
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__res_high_po_1p41 (7->1)               |sky130_fd_pr__res_high_po_1p41 (1)                  
-sky130_fd_pr__nfet_g5v0d10v5 (6)                    |sky130_fd_pr__nfet_g5v0d10v5 (6)                    
-sky130_fd_pr__pfet_g5v0d10v5 (10->4)                |sky130_fd_pr__pfet_g5v0d10v5 (4)                    
-Number of devices: 11                               |Number of devices: 11                               
-Number of nets: 8                                   |Number of nets: 8                                   
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: comparator_bias                          |Circuit 2: comparator_bias                          
-----------------------------------------------------|----------------------------------------------------
+DVDD                                                |DVDD                                                
 ena3v3                                              |ena3v3                                              
-VBN                                                 |VBN                                                 
 VSS                                                 |VSS                                                 
-VDD                                                 |VDD                                                 
-VBP                                                 |VBP                                                 
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes comparator_bias and comparator_bias are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_58RHGH in circuit comparator_core_cload (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_99SHXG in circuit comparator_core_cload (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_HHDTQV in circuit comparator_core_cload (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_H9Q64V in circuit comparator_core_cload (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_SK4LJA in circuit comparator_core_cload (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_VKQJ4Z in circuit comparator_core_cload (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_CNFY23 in circuit comparator_core_cload (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_FXMKC5 in circuit comparator_core_cload (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_H998DU in circuit comparator_core_cload (0)(1 instance)
-
-Class comparator_core_cload (0):  Merged 66 parallel devices.
-Subcircuit summary:
-Circuit 1: comparator_core_cload                    |Circuit 2: comparator_core_cload                    
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__pfet_g5v0d10v5 (49->16)               |sky130_fd_pr__pfet_g5v0d10v5 (40->16)               
-sky130_fd_pr__nfet_g5v0d10v5 (49->16)               |sky130_fd_pr__nfet_g5v0d10v5 (41->16)               
-Number of devices: 32                               |Number of devices: 32                               
-Number of nets: 23                                  |Number of nets: 23                                  
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: comparator_core_cload                    |Circuit 2: comparator_core_cload                    
-----------------------------------------------------|----------------------------------------------------
-VBP                                                 |VBP                                                 
 VBN                                                 |VBN                                                 
-VINP                                                |VINP                                                
-VINM                                                |VINM                                                
 VOUT                                                |VOUT                                                
-CLOAD                                               |CLOAD                                               
-DVDD                                                |DVDD                                                
-ena3v3                                              |ena3v3                                              
-VSS                                                 |VSS                                                 
+DVSS                                                |DVSS                                                
+VINM                                                |VINM                                                
+VINP                                                |VINP                                                
+w_355_n3243#                                        |(no pin, node is net1)                              
 VDD                                                 |VDD                                                 
+m2_4679_n3224#                                      |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes comparator_core_cload and comparator_core_cload are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_GTJ6Y6 in circuit balanced_switch (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_U62SY6 in circuit balanced_switch (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_EJGQFX#0 in circuit balanced_switch (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_U6NWY6 in circuit balanced_switch (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8#0 in circuit balanced_switch (0)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__diode_pw2nd_05v5_FT76RJ#0 in circuit balanced_switch (0)(1 instance)
+Cell pin lists for comparator_high_gain and comparator_high_gain altered to match.
+Device classes comparator_high_gain and comparator_high_gain are equivalent.
+Flattening unmatched subcell sky130_fd_pr__res_high_po_1p41_3L9D94 in circuit scomp_bias (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_35MXHD in circuit scomp_bias (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_VXYCT5 in circuit scomp_bias (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_G59KN9 in circuit scomp_bias (0)(1 instance)
 
-Class balanced_switch (0):  Merged 4 parallel devices.
+Class scomp_bias (0):  Merged 4 series devices.
 Subcircuit summary:
-Circuit 1: balanced_switch                          |Circuit 2: balanced_switch                          
+Circuit 1: scomp_bias                               |Circuit 2: scomp_bias                               
 ----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__pfet_g5v0d10v5 (8->5)                 |sky130_fd_pr__pfet_g5v0d10v5 (5)                    
-sky130_fd_pr__nfet_g5v0d10v5 (6->5)                 |sky130_fd_pr__nfet_g5v0d10v5 (5)                    
-sky130_fd_pr__diode_pw2nd_05v5 (1)                  |sky130_fd_pr__diode_pw2nd_05v5 (1)                  
-Number of devices: 11                               |Number of devices: 11                               
+sky130_fd_pr__res_high_po_1p41 (5->1)               |sky130_fd_pr__res_high_po_1p41 (1)                  
+sky130_fd_pr__nfet_g5v0d10v5 (3)                    |sky130_fd_pr__nfet_g5v0d10v5 (3)                    
+sky130_fd_pr__pfet_g5v0d10v5 (3)                    |sky130_fd_pr__pfet_g5v0d10v5 (3)                    
+Number of devices: 7                                |Number of devices: 7                                
 Number of nets: 7                                   |Number of nets: 7                                   
 ---------------------------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: balanced_switch                          |Circuit 2: balanced_switch                          
+Circuit 1: scomp_bias                               |Circuit 2: scomp_bias                               
 ----------------------------------------------------|----------------------------------------------------
-hold                                                |hold                                                
-vss                                                 |vss                                                 
-in                                                  |in                                                  
-out                                                 |out                                                 
-vdd                                                 |vdd                                                 
+ena3v3                                              |ena3v3                                              
+VDD                                                 |VDD                                                 
+VBN                                                 |VBN                                                 
+VSS                                                 |VSS                                                 
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes balanced_switch and balanced_switch are equivalent.
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_AQ2WAW in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_UNEQFS in circuit follower_amp (0)(5 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLJMY6 in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLWMS5 in circuit follower_amp (0)(3 instances)
-Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_0p35_HLA228 in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_FJGQFC in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__diode_pw2nd_05v5_FT76RJ#0 in circuit follower_amp (0)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_XJGQ2Y in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_05v0_nvt_BH6ZTK in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_Z8JNCQ in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_H7BQFY in circuit follower_amp (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_H7BQ24 in circuit follower_amp (0)(1 instance)
+Device classes scomp_bias and scomp_bias are equivalent.
 
-Cell follower_amp (0) disconnected node: vsub
-Cell follower_amp (1) disconnected node: vsub
-Class follower_amp (0):  Merged 312 parallel devices.
-Class follower_amp (0):  Merged 2 series devices.
-Cell follower_amp (0) disconnected node: vsub
-Cell follower_amp (1) disconnected node: vsub
-Subcircuit summary:
-Circuit 1: follower_amp                             |Circuit 2: follower_amp                             
-----------------------------------------------------|----------------------------------------------------
-sky130_fd_pr__pfet_g5v0d10v5 (315->10)              |sky130_fd_pr__pfet_g5v0d10v5 (10)                   
-sky130_fd_pr__nfet_g5v0d10v5 (17->10)               |sky130_fd_pr__nfet_g5v0d10v5 (10)                   
-sky130_fd_pr__res_xhigh_po_0p35 (3->1)              |sky130_fd_pr__res_xhigh_po_0p35 (1)                 
-sky130_fd_pr__diode_pw2nd_05v5 (2)                  |sky130_fd_pr__diode_pw2nd_05v5 (2)                  
-sky130_fd_pr__nfet_05v0_nvt (2)                     |sky130_fd_pr__nfet_05v0_nvt (2)                     
-Number of devices: 25                               |Number of devices: 25                               
-Number of nets: 17                                  |Number of nets: 17                                  
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: follower_amp                             |Circuit 2: follower_amp                             
-----------------------------------------------------|----------------------------------------------------
-in                                                  |in                                                  
-vss                                                 |vss                                                 
-ena                                                 |ena                                                 
-vdd                                                 |vdd                                                 
-out                                                 |out                                                 
-vsub                                                |vsub                                                
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes follower_amp and follower_amp are equivalent.
-
+Cell EF_SW_RST (0) disconnected node: DVDD
+Cell EF_SW_RST (0) disconnected node: DVSS
+Cell EF_SW_RST (0) disconnected node: m3_2464_n194#
+Cell EF_SW_RST (0) disconnected node: m3_1864_n2876#
+Cell EF_SW_RST (1) disconnected node: DVSS
 Subcircuit summary:
 Circuit 1: EF_SW_RST                                |Circuit 2: EF_SW_RST                                
 ----------------------------------------------------|----------------------------------------------------
-simple_analog_switch_ena1v8 (1)                     |simple_analog_switch_ena1v8 (1)                     
-minimal_n_switch_ena1v8 (1)                         |minimal_n_switch_ena1v8 (1)                         
+simple_analog_switch (2)                            |simple_analog_switch (2)                            
 Number of devices: 2                                |Number of devices: 2                                
 Number of nets: 7                                   |Number of nets: 7                                   
 ---------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
+Netlists match uniquely with port errors.
 
 Subcircuit pins:
 Circuit 1: EF_SW_RST                                |Circuit 2: EF_SW_RST                                
 ----------------------------------------------------|----------------------------------------------------
-AVSS                                                |AVSS                                                
-VP2                                                 |VP2                                                 
 VP1                                                 |VP1                                                 
-RST                                                 |RST                                                 
+VP2                                                 |VP2                                                 
+HOLDB                                               |HOLDB                                               
+HOLD                                                |HOLD                                                
+AVSS                                                |AVSS                                                
+VIN                                                 |VIN                                                 
 AVDD                                                |AVDD                                                
-DVDD                                                |DVDD                                                
 DVSS                                                |DVSS                                                
+DVDD                                                |(no matching pin)                                   
+m3_2464_n194#                                       |(no matching pin)                                   
+m3_1864_n2876#                                      |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes EF_SW_RST and EF_SW_RST are equivalent.
 
+Cell EF_AMUX0201_ARRAY1 (0) disconnected node: DVDD
 Subcircuit summary:
 Circuit 1: EF_AMUX0201_ARRAY1                       |Circuit 2: EF_AMUX0201_ARRAY1                       
 ----------------------------------------------------|----------------------------------------------------
 EF_AMUX21x (12)                                     |EF_AMUX21x (12)                                     
 Number of devices: 12                               |Number of devices: 12                               
-Number of nets: 30                                  |Number of nets: 30                                  
+Number of nets: 32 **Mismatch**                     |Number of nets: 31 **Mismatch**                     
 ---------------------------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
+NET mismatches: Class fragments follow (with fanout counts):
 Circuit 1: EF_AMUX0201_ARRAY1                       |Circuit 2: EF_AMUX0201_ARRAY1                       
-----------------------------------------------------|----------------------------------------------------
-VDD                                                 |VDD                                                 
-DVDD                                                |DVDD                                                
-VSS                                                 |VSS                                                 
-VH                                                  |VH                                                  
-VL                                                  |VL                                                  
-DVSS                                                |DVSS                                                
-D7                                                  |D7                                                  
-D9                                                  |D9                                                  
-D10                                                 |D10                                                 
-D1                                                  |D1                                                  
-D5                                                  |D5                                                  
-D11                                                 |D11                                                 
-D2                                                  |D2                                                  
-D0                                                  |D0                                                  
-D6                                                  |D6                                                  
-D4                                                  |D4                                                  
-D8                                                  |D8                                                  
-D3                                                  |D3                                                  
-SELD7                                               |SELD7                                               
-SELD9                                               |SELD9                                               
-SELD10                                              |SELD10                                              
-SELD1                                               |SELD1                                               
-SELD5                                               |SELD5                                               
-SELD11                                              |SELD11                                              
-SELD2                                               |SELD2                                               
-SELD0                                               |SELD0                                               
-SELD6                                               |SELD6                                               
-SELD4                                               |SELD4                                               
-SELD8                                               |SELD8                                               
-SELD3                                               |SELD3                                               
+
 ---------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes EF_AMUX0201_ARRAY1 and EF_AMUX0201_ARRAY1 are equivalent.
+Net: x4/selcm                                       |Net: RST                                            
+  EF_AMUX21x/selcm = 6                              |  EF_AMUX21x/selcm = 12                             
+                                                    |                                                    
+Net: x9/selcm                                       |(no matching net)                                   
+  EF_AMUX21x/selcm = 6                              |                                                    
+---------------------------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits EF_AMUX0201_ARRAY1 EF_AMUX0201_ARRAY1
 Flattening unmatched subcell cap_array_half in circuit EF_BANK_CAP_12 (0)(2 instances)
 Flattening unmatched subcell cdac_unit_cap in circuit EF_BANK_CAP_12 (0)(180 instances)
 Flattening unmatched subcell cdac_ratioed_cap in circuit EF_BANK_CAP_12 (0)(10 instances)
@@ -495,19 +507,20 @@ Flattening unmatched subcell EF_LSB_CAP in circuit EF_BANK_CAP_12 (1)(1 instance
 Flattening unmatched subcell EF_MSB_CAP in circuit EF_BANK_CAP_12 (1)(1 instance)
 Flattening unmatched subcell EF_SC_CAP in circuit EF_BANK_CAP_12 (1)(1 instance)
 
-Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26645#
+Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26640#
 Class EF_BANK_CAP_12 (0):  Merged 350 parallel devices.
 Class EF_BANK_CAP_12 (1):  Merged 4 parallel devices.
-Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26645#
+Cell EF_BANK_CAP_12 (0) disconnected node: w_58549_n26640#
 Subcircuit summary:
 Circuit 1: EF_BANK_CAP_12                           |Circuit 2: EF_BANK_CAP_12                           
 ----------------------------------------------------|----------------------------------------------------
 sky130_fd_pr__cap_mim_m3_1 (190->15)                |sky130_fd_pr__cap_mim_m3_1 (190->15)                
 sky130_fd_pr__cap_mim_m3_2 (190->15)                |sky130_fd_pr__cap_mim_m3_2 (190->15)                
 Number of devices: 30                               |Number of devices: 30                               
-Number of nets: 15                                  |Number of nets: 15                                  
+Number of nets: 16                                  |Number of nets: 16                                  
 ---------------------------------------------------------------------------------------------------------
 Resolving symmetries by property value.
+Resolving symmetries by pin name.
 Netlists match uniquely with port errors.
 
 Subcircuit pins:
@@ -515,12 +528,13 @@ Circuit 1: EF_BANK_CAP_12                           |Circuit 2: EF_BANK_CAP_12
 ----------------------------------------------------|----------------------------------------------------
 VP1                                                 |VP1                                                 
 VP2                                                 |VP2                                                 
-D0                                                  |D0                                                  
 D1                                                  |D1                                                  
 D2                                                  |D2                                                  
 D3                                                  |D3                                                  
 D4                                                  |D4                                                  
 D5                                                  |D5                                                  
+D0                                                  |D0                                                  
+Vref                                                |Vref                                                
 D8                                                  |D8                                                  
 D10                                                 |D10                                                 
 D9                                                  |D9                                                  
@@ -528,115 +542,140 @@ D6                                                  |D6
 D7                                                  |D7                                                  
 D11                                                 |D11                                                 
 VSS                                                 |VSS                                                 
-w_58549_n26645#                                     |(no matching pin)                                   
+w_58549_n26640#                                     |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes EF_BANK_CAP_12 and EF_BANK_CAP_12 are equivalent.
-  Flattening non-matched subcircuits EF_BANK_CAP_12 EF_BANK_CAP_12
 
+Class cdac_lvlshift_array (0):  Merged 14 parallel devices.
+Class cdac_lvlshift_array (1):  Merged 14 parallel devices.
 Subcircuit summary:
-Circuit 1: sky130_ef_ip__ccomp3v_cl                 |Circuit 2: sky130_ef_ip__ccomp3v_cl                 
+Circuit 1: cdac_lvlshift_array                      |Circuit 2: cdac_lvlshift_array                      
 ----------------------------------------------------|----------------------------------------------------
-comparator_bias (1)                                 |comparator_bias (1)                                 
-comparator_core_cload (1)                           |comparator_core_cload (1)                           
+sky130_fd_sc_hvl__decap_4 (15->1)                   |sky130_fd_sc_hvl__decap_4 (15->1)                   
+sky130_fd_sc_hvl__inv_2 (1)                         |sky130_fd_sc_hvl__inv_2 (1)                         
+sky130_fd_sc_hvl__diode_2 (14)                      |sky130_fd_sc_hvl__diode_2 (14)                      
+sky130_fd_pr__nfet_g5v0d10v5 (168->56)              |sky130_fd_pr__nfet_g5v0d10v5 (168->56)              
+sky130_fd_pr__pfet_g5v0d10v5 (56)                   |sky130_fd_pr__pfet_g5v0d10v5 (56)                   
+sky130_fd_pr__nfet_01v8 (28)                        |sky130_fd_pr__nfet_01v8 (28)                        
+sky130_fd_pr__pfet_01v8_hvt (28)                    |sky130_fd_pr__pfet_01v8_hvt (28)                    
+Number of devices: 184                              |Number of devices: 184                              
+Number of nets: 102                                 |Number of nets: 102                                 
+---------------------------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: cdac_lvlshift_array                      |Circuit 2: cdac_lvlshift_array                      
+----------------------------------------------------|----------------------------------------------------
+SEL11_3P3                                           |sel11_3p3                                           
+SEL10_3P3                                           |sel10_3p3                                           
+SEL8_3P3                                            |sel8_3p3                                            
+SEL9_3P3                                            |sel9_3p3                                            
+SEL7_3P3                                            |sel7_3p3                                            
+SEL6_3P3                                            |sel6_3p3                                            
+SEL4_3P3                                            |sel4_3p3                                            
+SEL5_3P3                                            |sel5_3p3                                            
+SEL3_3P3                                            |sel3_3p3                                            
+SEL1_3P3                                            |sel1_3p3                                            
+SEL2_3P3                                            |sel2_3p3                                            
+RST_3P3                                             |rst_3p3                                             
+SEL0_3P3                                            |sel0_3p3                                            
+VDD1P8                                              |vdd1p8                                              
+HOLDB_3P3                                           |holdb_3p3                                           
+HOLD                                                |hold                                                
+SEL7                                                |sel7                                                
+SEL6                                                |sel6                                                
+SEL4                                                |sel4                                                
+SEL5                                                |sel5                                                
+SEL3                                                |sel3                                                
+SEL1                                                |sel1                                                
+SEL2                                                |sel2                                                
+SEL11                                               |sel11                                               
+RST                                                 |rst                                                 
+SEL9                                                |sel9                                                
+SEL10                                               |sel10                                               
+SEL0                                                |sel0                                                
+SEL8                                                |sel8                                                
+HOLD_3P3                                            |hold_3p3                                            
+VDD3P3                                              |vdd3p3                                              
+VSS                                                 |vss                                                 
+---------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes cdac_lvlshift_array and cdac_lvlshift_array are equivalent.
+
+Cell sky130_ef_ip__scomp3v (0) disconnected node: w_7612_1960#
+Subcircuit summary:
+Circuit 1: sky130_ef_ip__scomp3v                    |Circuit 2: sky130_ef_ip__scomp3v                    
+----------------------------------------------------|----------------------------------------------------
+comparator_high_gain (1)                            |comparator_high_gain (1)                            
+scomp_bias (1)                                      |scomp_bias (1)                                      
 sky130_fd_pr__nfet_g5v0d10v5 (12->4)                |sky130_fd_pr__nfet_g5v0d10v5 (12->4)                
 sky130_fd_pr__pfet_g5v0d10v5 (4)                    |sky130_fd_pr__pfet_g5v0d10v5 (4)                    
 sky130_fd_pr__nfet_01v8 (2)                         |sky130_fd_pr__nfet_01v8 (2)                         
 sky130_fd_pr__pfet_01v8_hvt (2)                     |sky130_fd_pr__pfet_01v8_hvt (2)                     
 sky130_fd_sc_hvl__diode_2 (1)                       |sky130_fd_sc_hvl__diode_2 (1)                       
-sky130_fd_sc_hvl__decap_4 (1)                       |sky130_fd_sc_hvl__decap_4 (1)                       
-Number of devices: 16                               |Number of devices: 16                               
-Number of nets: 17                                  |Number of nets: 17                                  
+Number of devices: 15                               |Number of devices: 15                               
+Number of nets: 16                                  |Number of nets: 16                                  
 ---------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
+Netlists match uniquely with port errors.
 
 Subcircuit pins:
-Circuit 1: sky130_ef_ip__ccomp3v_cl                 |Circuit 2: sky130_ef_ip__ccomp3v_cl                 
+Circuit 1: sky130_ef_ip__scomp3v                    |Circuit 2: sky130_ef_ip__scomp3v                    
 ----------------------------------------------------|----------------------------------------------------
-DVSS                                                |DVSS                                                
 ENA                                                 |ENA                                                 
+DVSS                                                |DVSS                                                
 DVDD                                                |DVDD                                                
 VINP                                                |VINP                                                
 VOUT                                                |VOUT                                                
 VINM                                                |VINM                                                
-CLOAD                                               |CLOAD                                               
-VDD                                                 |VDD                                                 
+w_6543_n2805#                                       |(no pin, node is dummy_22)                          
 VSS                                                 |VSS                                                 
+VDD                                                 |VDD                                                 
+w_7612_1960#                                        |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_ef_ip__ccomp3v_cl and sky130_ef_ip__ccomp3v_cl are equivalent.
-Flattening unmatched subcell sky130_fd_pr__diode_pw2nd_05v5_L93GHW in circuit sky130_ef_ip__samplehold (0)(2 instances)
-Flattening unmatched subcell hold_cap_array in circuit sky130_ef_ip__samplehold (0)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_VCAG9S_alt in circuit sky130_ef_ip__samplehold (0)(48 instances)
-Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_2_VCAE9S in circuit sky130_ef_ip__samplehold (0)(48 instances)
-
-Class sky130_ef_ip__samplehold (0):  Merged 94 parallel devices.
-Subcircuit summary:
-Circuit 1: sky130_ef_ip__samplehold                 |Circuit 2: sky130_ef_ip__samplehold                 
-----------------------------------------------------|----------------------------------------------------
-balanced_switch (1)                                 |balanced_switch (1)                                 
-follower_amp (2)                                    |follower_amp (2)                                    
-sky130_fd_pr__nfet_g5v0d10v5 (24->8)                |sky130_fd_pr__nfet_g5v0d10v5 (24->8)                
-sky130_fd_pr__pfet_g5v0d10v5 (8)                    |sky130_fd_pr__pfet_g5v0d10v5 (8)                    
-sky130_fd_pr__nfet_01v8 (4)                         |sky130_fd_pr__nfet_01v8 (4)                         
-sky130_fd_pr__pfet_01v8_hvt (4)                     |sky130_fd_pr__pfet_01v8_hvt (4)                     
-sky130_fd_pr__diode_pw2nd_05v5 (2)                  |sky130_fd_pr__diode_pw2nd_05v5 (2)                  
-sky130_fd_pr__cap_mim_m3_1 (48->1)                  |sky130_fd_pr__cap_mim_m3_1 (48->1)                  
-sky130_fd_pr__cap_mim_m3_2 (48->1)                  |sky130_fd_pr__cap_mim_m3_2 (48->1)                  
-Number of devices: 31                               |Number of devices: 31                               
-Number of nets: 22                                  |Number of nets: 22                                  
----------------------------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: sky130_ef_ip__samplehold                 |Circuit 2: sky130_ef_ip__samplehold                 
-----------------------------------------------------|----------------------------------------------------
-dvdd                                                |dvdd                                                
-dvss                                                |dvss                                                
-out                                                 |out                                                 
-in                                                  |in                                                  
-vss                                                 |vss                                                 
-vdd                                                 |vdd                                                 
-hold                                                |hold                                                
-ena                                                 |ena                                                 
----------------------------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_ef_ip__samplehold and sky130_ef_ip__samplehold are equivalent.
+Cell pin lists for sky130_ef_ip__scomp3v and sky130_ef_ip__scomp3v altered to match.
+Device classes sky130_ef_ip__scomp3v and sky130_ef_ip__scomp3v are equivalent.
 
 Subcircuit summary:
 Circuit 1: sky130_ef_ip__cdac3v_12bit               |Circuit 2: sky130_ef_ip__cdac3v_12bit               
 ----------------------------------------------------|----------------------------------------------------
 EF_SW_RST (1)                                       |EF_SW_RST (1)                                       
-EF_AMUX0201_ARRAY1 (1)                              |EF_AMUX0201_ARRAY1 (1)                              
-sky130_fd_pr__cap_mim_m3_1 (190->15)                |sky130_fd_pr__cap_mim_m3_1 (190->15)                
-sky130_fd_pr__cap_mim_m3_2 (190->15)                |sky130_fd_pr__cap_mim_m3_2 (190->15)                
-Number of devices: 32                               |Number of devices: 32                               
-Number of nets: 33                                  |Number of nets: 33                                  
+EF_AMUX21x (12)                                     |EF_AMUX21x (12)                                     
+EF_BANK_CAP_12 (1)                                  |EF_BANK_CAP_12 (1)                                  
+cdac_lvlshift_array (1)                             |cdac_lvlshift_array (1)                             
+Number of devices: 15                               |Number of devices: 15                               
+Number of nets: 52                                  |Number of nets: 52                                  
 ---------------------------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: sky130_ef_ip__cdac3v_12bit               |Circuit 2: sky130_ef_ip__cdac3v_12bit               
 ----------------------------------------------------|----------------------------------------------------
-VDD                                                 |VDD                                                 
-DVDD                                                |DVDD                                                
-DVSS                                                |DVSS                                                
-VSS                                                 |VSS                                                 
-SELD0                                               |SELD0                                               
-SELD1                                               |SELD1                                               
-SELD2                                               |SELD2                                               
-SELD3                                               |SELD3                                               
-SELD4                                               |SELD4                                               
-SELD5                                               |SELD5                                               
-SELD6                                               |SELD6                                               
-SELD7                                               |SELD7                                               
-SELD8                                               |SELD8                                               
-SELD9                                               |SELD9                                               
 VH                                                  |VH                                                  
 VL                                                  |VL                                                  
-SELD10                                              |SELD10                                              
+VCM                                                 |VCM                                                 
+Vref                                                |Vref                                                
+VIN                                                 |VIN                                                 
+SELD3                                               |SELD3                                               
+SELD7                                               |SELD7                                               
 SELD11                                              |SELD11                                              
+SELD6                                               |SELD6                                               
+SELD10                                              |SELD10                                              
+SELD2                                               |SELD2                                               
+SELD5                                               |SELD5                                               
+SELD1                                               |SELD1                                               
+SELD9                                               |SELD9                                               
+SELD4                                               |SELD4                                               
+SELD8                                               |SELD8                                               
+DVDD                                                |DVDD                                                
+SELD0                                               |SELD0                                               
+HOLD                                                |HOLD                                                
 RST                                                 |RST                                                 
+VSS                                                 |VSS                                                 
+VDD                                                 |VDD                                                 
+DVSS                                                |DVSS                                                
 OUTNC                                               |OUTNC                                               
 OUT                                                 |OUT                                                 
 ---------------------------------------------------------------------------------------------------------
@@ -644,19 +683,23 @@ Cell pin lists are equivalent.
 Device classes sky130_ef_ip__cdac3v_12bit and sky130_ef_ip__cdac3v_12bit are equivalent.
 
 Subcircuit summary:
-Circuit 1: adc0_subsystem                           |Circuit 2: adc0_subsystem                           
+Circuit 1: sky130_ef_ip__adc3v_12bit                |Circuit 2: sky130_ef_ip__adc3v_12bit                
 ----------------------------------------------------|----------------------------------------------------
-sky130_ef_ip__ccomp3v_cl (1)                        |sky130_ef_ip__ccomp3v_cl (1)                        
-sky130_ef_ip__samplehold (1)                        |sky130_ef_ip__samplehold (1)                        
+sky130_ef_ip__scomp3v (1)                           |sky130_ef_ip__scomp3v (1)                           
 sky130_ef_ip__cdac3v_12bit (1)                      |sky130_ef_ip__cdac3v_12bit (1)                      
-Number of devices: 3                                |Number of devices: 3                                
-Number of nets: 26                                  |Number of nets: 26                                  
+Number of devices: 2                                |Number of devices: 2                                
+Number of nets: 28                                  |Number of nets: 28                                  
 ---------------------------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: adc0_subsystem                           |Circuit 2: adc0_subsystem                           
+Circuit 1: sky130_ef_ip__adc3v_12bit                |Circuit 2: sky130_ef_ip__adc3v_12bit                
 ----------------------------------------------------|----------------------------------------------------
+vdda0                                               |vdda0                                               
+vccd0                                               |vccd0                                               
+vssd0                                               |vssd0                                               
+vssa0                                               |vssa0                                               
+adc_vCM                                             |adc_vCM                                             
 adc0_dac_val_0                                      |adc0_dac_val_0                                      
 adc0_dac_val_1                                      |adc0_dac_val_1                                      
 adc0_dac_val_2                                      |adc0_dac_val_2                                      
@@ -672,17 +715,14 @@ adc_vrefL                                           |adc_vrefL
 adc0_reset                                          |adc0_reset                                          
 adc0_dac_val_10                                     |adc0_dac_val_10                                     
 adc0_dac_val_11                                     |adc0_dac_val_11                                     
-adc0_hold                                           |adc0_hold                                           
+adc_trim                                            |adc_trim                                            
 adc0                                                |adc0                                                
+adc0_hold                                           |adc0_hold                                           
 adc0_comp_out                                       |adc0_comp_out                                       
-vssa0                                               |vssa0                                               
-vdda0                                               |vdda0                                               
-vccd0                                               |vccd0                                               
-vssd0                                               |vssd0                                               
 adc0_ena                                            |adc0_ena                                            
 ---------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes adc0_subsystem and adc0_subsystem are equivalent.
+Device classes sky130_ef_ip__adc3v_12bit and sky130_ef_ip__adc3v_12bit are equivalent.
 
 Final result: Circuits match uniquely.
 .

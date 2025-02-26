@@ -91,46 +91,46 @@ N 1100 200 1100 280 {
 lab=vdda}
 N 770 300 940 300 {
 lab=vss}
-N 340 480 400 480 {
-lab=rst}
 N 1020 320 1020 470 {
 lab=vcm}
-N 400 480 470 480 {
-lab=rst}
-N 340 220 470 220 {
-lab=ena}
-N 340 460 470 460 {
-lab=d11}
-N 340 440 470 440 {
-lab=d10}
-N 340 420 470 420 {
-lab=d9}
-N 340 400 470 400 {
-lab=d8}
-N 340 380 470 380 {
-lab=d7}
-N 340 360 470 360 {
-lab=d6}
-N 340 340 470 340 {
-lab=d5}
-N 340 320 470 320 {
-lab=d4}
-N 340 300 470 300 {
-lab=d3}
-N 340 280 470 280 {
-lab=d2}
-N 340 260 470 260 {
-lab=d1}
-N 340 240 470 240 {
-lab=d0}
-N 340 500 470 500 {
-lab=hold}
 N 420 200 470 200 {
 lab=vin}
-N 40 340 40 370 {
+N -270 340 -270 370 {
 lab=vin}
-N 140 220 170 220 {
+N -170 220 -140 220 {
 lab=vout}
+N 30 220 470 220 {
+lab=ena}
+N 30 480 470 480 {
+lab=rst}
+N 30 500 470 500 {
+lab=hold}
+N 30 460 50 460 {
+lab=d11}
+N 30 440 50 440 {
+lab=d10}
+N 30 420 50 420 {
+lab=d9}
+N 30 400 50 400 {
+lab=d8}
+N 30 380 50 380 {
+lab=d7}
+N 30 360 50 360 {
+lab=d6}
+N 30 340 50 340 {
+lab=d5}
+N 30 320 50 320 {
+lab=d4}
+N 30 300 50 300 {
+lab=d3}
+N 30 280 50 280 {
+lab=d2}
+N 30 260 50 260 {
+lab=d1}
+N 30 240 40 240 {
+lab=d0}
+N 450 240 470 240 {
+lab=d11.d10,d9,d8,d7,d6,d5,d4,d3,d2,d1,d0}
 C {sky130_ef_ip__adc3v_12bit.sym} 620 330 0 0 {name=x1}
 C {devices/vsource.sym} 1020 500 0 0 {name=V1 value=1.65 savecurrent=false}
 C {devices/vsource.sym} 1100 500 0 0 {name=V2 value=3.3 savecurrent=false}
@@ -139,13 +139,13 @@ C {devices/lab_pin.sym} 810 340 0 1 {name=p2 sig_type=std_logic lab=vcm}
 C {devices/vsource.sym} 1170 500 0 0 {name=V3 value=1.8 savecurrent=false}
 C {devices/vsource.sym} 940 500 0 0 {name=V4 value=0 savecurrent=false}
 C {devices/gnd.sym} 980 530 0 0 {name=l1 lab=GND}
-C {devices/vsource.sym} 40 400 0 0 {name=V5 value="SIN(1.65 1.65 10k 0 0)" savecurrent=false}
+C {devices/vsource.sym} -270 400 0 0 {name=V5 value="SIN(1.65 1.65 10k 0 0)" savecurrent=false}
 C {devices/lab_pin.sym} 1100 310 0 1 {name=p3 sig_type=std_logic lab=vdda}
 C {devices/lab_pin.sym} 1170 240 0 1 {name=p4 sig_type=std_logic lab=vccd}
 C {devices/lab_pin.sym} 940 400 0 1 {name=p5 sig_type=std_logic lab=vss}
-C {devices/lab_pin.sym} 40 340 0 1 {name=p6 sig_type=std_logic lab=vin}
+C {devices/lab_pin.sym} -270 340 0 1 {name=p6 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 420 220 0 0 {name=p7 sig_type=std_logic lab=ena}
-C {devices/gnd.sym} 40 430 0 0 {name=l3 lab=GND}
+C {devices/gnd.sym} -270 430 0 0 {name=l3 lab=GND}
 C {sky130_fd_pr/corner.sym} 1260 440 0 0 {name=CORNER only_toplevel=false corner=tt}
 C {devices/code_shown.sym} 1270 220 0 0 {name=Commands only_toplevel=false value=".include $PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hvl/spice/sky130_fd_sc_hvl.spice
 .include $PDK_ROOT/$PDK/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
@@ -159,24 +159,25 @@ C {devices/code_shown.sym} 1270 220 0 0 {name=Commands only_toplevel=false value
 "}
 C {devices/lab_pin.sym} 420 480 0 0 {name=p8 sig_type=std_logic lab=rst}
 C {devices/lab_pin.sym} 420 500 0 0 {name=p11 sig_type=std_logic lab=hold}
-C {devices/lab_pin.sym} 420 460 0 0 {name=p9 sig_type=std_logic lab=d11}
-C {devices/lab_pin.sym} 420 440 0 0 {name=p10 sig_type=std_logic lab=d10}
-C {devices/lab_pin.sym} 420 420 0 0 {name=p17 sig_type=std_logic lab=d9}
-C {devices/lab_pin.sym} 420 400 0 0 {name=p18 sig_type=std_logic lab=d8}
-C {devices/lab_pin.sym} 420 380 0 0 {name=p19 sig_type=std_logic lab=d7}
-C {devices/lab_pin.sym} 420 360 0 0 {name=p20 sig_type=std_logic lab=d6}
-C {devices/lab_pin.sym} 420 340 0 0 {name=p23 sig_type=std_logic lab=d5}
-C {devices/lab_pin.sym} 420 320 0 0 {name=p25 sig_type=std_logic lab=d4}
-C {devices/lab_pin.sym} 420 300 0 0 {name=p27 sig_type=std_logic lab=d3}
-C {devices/lab_pin.sym} 420 280 0 0 {name=p31 sig_type=std_logic lab=d2}
-C {devices/lab_pin.sym} 420 260 0 0 {name=p32 sig_type=std_logic lab=d1}
-C {devices/lab_pin.sym} 420 240 0 0 {name=p33 sig_type=std_logic lab=d0}
+C {devices/lab_pin.sym} 450 240 0 0 {name=p33 sig_type=std_logic lab=d11,d10,d9,d8,d7,d6,d5,d4,d3,d2,d1,d0}
 C {devices/launcher.sym} 230 1480 0 0 {name=h2
 descr="Load waves TRAN" 
 tclcommand="
 xschem raw_read $netlist_dir/simdata.raw tran
 "
 }
-C {adc_testbench.sym} 260 340 0 0 {}
+C {adc_testbench.sym} -50 340 0 0 {}
 C {devices/lab_pin.sym} 420 200 0 0 {name=p12 sig_type=std_logic lab=vin}
-C {devices/lab_pin.sym} 140 220 0 0 {name=p13 sig_type=std_logic lab=vout}
+C {devices/lab_pin.sym} -170 220 0 0 {name=p13 sig_type=std_logic lab=vout}
+C {lab_pin.sym} 50 460 0 1 {name=p9 sig_type=std_logic lab=d11}
+C {lab_pin.sym} 50 440 0 1 {name=p10 sig_type=std_logic lab=d10}
+C {lab_pin.sym} 50 420 0 1 {name=p14 sig_type=std_logic lab=d9}
+C {lab_pin.sym} 50 400 0 1 {name=p15 sig_type=std_logic lab=d8}
+C {lab_pin.sym} 50 380 0 1 {name=p16 sig_type=std_logic lab=d7}
+C {lab_pin.sym} 50 360 0 1 {name=p17 sig_type=std_logic lab=d6}
+C {lab_pin.sym} 50 340 0 1 {name=p18 sig_type=std_logic lab=d5}
+C {lab_pin.sym} 50 320 0 1 {name=p19 sig_type=std_logic lab=d4}
+C {lab_pin.sym} 50 300 0 1 {name=p20 sig_type=std_logic lab=d3}
+C {lab_pin.sym} 50 280 0 1 {name=p21 sig_type=std_logic lab=d2}
+C {lab_pin.sym} 50 260 0 1 {name=p22 sig_type=std_logic lab=d1}
+C {lab_pin.sym} 40 240 0 1 {name=p23 sig_type=std_logic lab=d0}

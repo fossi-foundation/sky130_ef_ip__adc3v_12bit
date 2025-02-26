@@ -1,15 +1,14 @@
 ** sch_path: /home/tim/gits/sky130_ef_ip__adc3v_12bit/xschem/sky130_ef_ip__adc3v_12bit.sch
-.subckt sky130_ef_ip__adc3v_12bit vdda0 vssa0 vccd0 vssd0 adc_vrefH adc_vrefL adc0 adc0_ena adc0_dac_val_0 adc0_dac_val_1
-+ adc0_dac_val_2 adc0_dac_val_3 adc0_comp_out adc0_dac_val_4 adc0_dac_val_5 adc0_dac_val_6 adc0_dac_val_7 adc0_dac_val_8 adc0_dac_val_9
-+ adc0_dac_val_10 adc0_dac_val_11 adc0_reset adc_vCM adc_trim adc0_hold
-*.PININFO adc0_comp_out:O adc0:I adc0_ena:I adc0_reset:I vdda0:B vssa0:B vccd0:B vssd0:B adc_vrefH:B adc_vrefL:B adc0_dac_val_0:I
-*+ adc0_dac_val_1:I adc0_dac_val_2:I adc0_dac_val_3:I adc0_dac_val_4:I adc0_dac_val_5:I adc0_dac_val_6:I adc0_dac_val_7:I adc0_dac_val_8:I
-*+ adc0_dac_val_9:I adc0_dac_val_10:I adc0_dac_val_11:I adc_trim:B adc_vCM:B adc0_hold:I
-x1 adc0_dac_val_0 adc0_dac_val_1 adc0_dac_val_2 adc0_dac_val_3 adc0_dac_val_4 adc0_dac_val_5 adc0_dac_val_6 adc0_dac_val_7
-+ adc0_dac_val_8 adc0_dac_val_9 vdda0 vccd0 vssd0 vssa0 adc_vrefH adc_vrefL adc_aval adc0_reset net1 adc0_dac_val_10 adc0_dac_val_11 adc_vCM
-+ adc_trim adc0 adc0_hold sky130_ef_ip__cdac3v_12bit
+.subckt sky130_ef_ip__adc3v_12bit vdda vssa vccd vssd adc_vrefH adc_vrefL adc_in adc_ena adc_dac_val[11] adc_dac_val[10]
++ adc_dac_val[9] adc_dac_val[8] adc_dac_val[7] adc_dac_val[6] adc_dac_val[5] adc_dac_val[4] adc_dac_val[3] adc_dac_val[2] adc_dac_val[1]
++ adc_dac_val[0] adc_comp_out adc_reset adc_vCM adc_trim adc_hold
+*.PININFO adc_comp_out:O adc_in:I adc_ena:I adc_reset:I vdda:B vssa:B vccd:B vssd:B adc_vrefH:B adc_vrefL:B adc_dac_val[11:0]:I
+*+ adc_trim:B adc_vCM:B adc_hold:I
+x1 adc_dac_val[0] adc_dac_val[1] adc_dac_val[2] adc_dac_val[3] adc_dac_val[4] adc_dac_val[5] adc_dac_val[6] adc_dac_val[7]
++ adc_dac_val[8] adc_dac_val[9] vdda vccd vssd vssa adc_vrefH adc_vrefL adc_aval adc_reset net1 adc_dac_val[10] adc_dac_val[11] adc_vCM adc_trim
++ adc_in adc_hold sky130_ef_ip__cdac3v_12bit
 * noconn #net1
-x2 adc0_comp_out vccd0 vssd0 vdda0 vssa0 adc_aval adc_vCM adc0_ena sky130_ef_ip__scomp3v
+x2 adc_comp_out vccd vssd vdda vssa adc_aval adc_vCM adc_ena sky130_ef_ip__scomp3v
 .ends
 
 * expanding   symbol:  sky130_ef_ip__cdac3v_12bit.sym # of pins=25

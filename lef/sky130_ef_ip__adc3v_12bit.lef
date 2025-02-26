@@ -7,7 +7,7 @@ MACRO sky130_ef_ip__adc3v_12bit
   FOREIGN sky130_ef_ip__adc3v_12bit ;
   ORIGIN 0.000 0.000 ;
   SIZE 223.710 BY 293.365 ;
-  PIN adc0_dac_val_11
+  PIN adc_dac_val[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -16,8 +16,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 94.230 0.000 94.370 1.500 ;
     END
-  END adc0_dac_val_11
-  PIN adc0_dac_val_10
+  END adc_dac_val[11]
+  PIN adc_dac_val[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -26,8 +26,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 93.670 0.000 93.810 1.500 ;
     END
-  END adc0_dac_val_10
-  PIN adc0_dac_val_9
+  END adc_dac_val[10]
+  PIN adc_dac_val[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -36,8 +36,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 93.110 0.000 93.250 1.500 ;
     END
-  END adc0_dac_val_9
-  PIN adc0_dac_val_8
+  END adc_dac_val[9]
+  PIN adc_dac_val[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -46,8 +46,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 92.550 0.000 92.690 1.500 ;
     END
-  END adc0_dac_val_8
-  PIN adc0_dac_val_7
+  END adc_dac_val[8]
+  PIN adc_dac_val[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -56,8 +56,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 91.990 0.000 92.130 1.500 ;
     END
-  END adc0_dac_val_7
-  PIN adc0_dac_val_6
+  END adc_dac_val[7]
+  PIN adc_dac_val[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -66,8 +66,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 91.430 0.000 91.570 1.500 ;
     END
-  END adc0_dac_val_6
-  PIN adc0_dac_val_5
+  END adc_dac_val[6]
+  PIN adc_dac_val[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -76,8 +76,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 90.870 0.000 91.010 1.500 ;
     END
-  END adc0_dac_val_5
-  PIN adc0_dac_val_4
+  END adc_dac_val[5]
+  PIN adc_dac_val[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -86,8 +86,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 90.310 0.000 90.450 1.500 ;
     END
-  END adc0_dac_val_4
-  PIN adc0_dac_val_3
+  END adc_dac_val[4]
+  PIN adc_dac_val[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -96,8 +96,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 89.750 0.000 89.890 1.500 ;
     END
-  END adc0_dac_val_3
-  PIN adc0_dac_val_2
+  END adc_dac_val[3]
+  PIN adc_dac_val[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -106,8 +106,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 89.190 0.000 89.330 1.500 ;
     END
-  END adc0_dac_val_2
-  PIN adc0_dac_val_1
+  END adc_dac_val[2]
+  PIN adc_dac_val[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -116,8 +116,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 88.630 0.000 88.770 1.500 ;
     END
-  END adc0_dac_val_1
-  PIN adc0_dac_val_0
+  END adc_dac_val[1]
+  PIN adc_dac_val[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -126,8 +126,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 88.070 0.000 88.210 1.500 ;
     END
-  END adc0_dac_val_0
-  PIN adc0_ena
+  END adc_dac_val[0]
+  PIN adc_ena
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -136,8 +136,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met3 ;
         RECT 223.080 152.480 223.710 152.790 ;
     END
-  END adc0_ena
-  PIN adc0_reset
+  END adc_ena
+  PIN adc_reset
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -146,8 +146,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 80.160 0.000 80.340 1.500 ;
     END
-  END adc0_reset
-  PIN adc0_comp_out
+  END adc_reset
+  PIN adc_comp_out
     DIRECTION OUTPUT ;
     USE SIGNAL ;
     ANTENNADIFFAREA 4.350000 ;
@@ -155,8 +155,8 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met3 ;
         RECT 222.830 144.305 223.515 144.605 ;
     END
-  END adc0_comp_out
-  PIN adc0_hold
+  END adc_comp_out
+  PIN adc_hold
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.859200 ;
@@ -165,7 +165,7 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met2 ;
         RECT 79.245 0.000 79.425 1.500 ;
     END
-  END adc0_hold
+  END adc_hold
   PIN adc_vrefL
     DIRECTION INOUT ;
     USE ANALOG ;
@@ -175,22 +175,18 @@ MACRO sky130_ef_ip__adc3v_12bit
         RECT 88.700 290.235 90.955 293.310 ;
     END
   END adc_vrefL
-  PIN vccd0
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met5 ;
-        RECT 0.000 9.690 201.315 17.530 ;
-    END
-  END vccd0
-  PIN vssd0
+  PIN vssd
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER met5 ;
         RECT 0.000 0.065 201.435 7.905 ;
     END
-  END vssd0
+    PORT
+      LAYER met4 ;
+        RECT 187.535 0.065 192.635 134.895 ;
+    END
+  END vssd
   PIN adc_vrefH
     DIRECTION INOUT ;
     USE ANALOG ;
@@ -200,22 +196,6 @@ MACRO sky130_ef_ip__adc3v_12bit
         RECT 93.255 290.290 95.510 293.365 ;
     END
   END adc_vrefH
-  PIN vssa0
-    DIRECTION INOUT ;
-    USE GROUND ;
-    PORT
-      LAYER met5 ;
-        RECT 0.000 276.005 202.235 283.475 ;
-    END
-  END vssa0
-  PIN vdda0
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met5 ;
-        RECT 0.000 285.680 202.235 293.150 ;
-    END
-  END vdda0
   PIN adc_trim
     DIRECTION INPUT ;
     USE ANALOG ;
@@ -234,7 +214,7 @@ MACRO sky130_ef_ip__adc3v_12bit
         RECT 178.920 290.465 180.755 293.355 ;
     END
   END adc_vCM
-  PIN adc0
+  PIN adc_in
     DIRECTION INPUT ;
     USE ANALOG ;
     ANTENNADIFFAREA 10.440000 ;
@@ -242,7 +222,41 @@ MACRO sky130_ef_ip__adc3v_12bit
       LAYER met3 ;
         RECT 0.000 146.050 1.265 146.810 ;
     END
-  END adc0
+  END adc_in
+  PIN vccd
+    ANTENNADIFFAREA 16.191999 ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 9.690 201.315 17.530 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 196.185 9.690 201.280 129.365 ;
+    END
+  END vccd
+  PIN vdda
+    ANTENNAGATEAREA 83.250000 ;
+    ANTENNADIFFAREA 1752.923096 ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 285.680 202.235 293.150 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 196.850 201.580 201.950 293.300 ;
+    END
+  END vdda
+  PIN vssa
+    ANTENNADIFFAREA 324.873291 ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 276.005 202.235 283.475 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 187.530 139.270 192.635 284.310 ;
+    END
+  END vssa
   OBS
       LAYER nwell ;
         RECT 2.195 14.775 223.430 266.200 ;
@@ -270,10 +284,20 @@ MACRO sky130_ef_ip__adc3v_12bit
         RECT 1.235 289.835 88.300 293.355 ;
         RECT 91.355 289.890 92.855 293.355 ;
         RECT 95.910 290.065 178.520 293.355 ;
-        RECT 181.155 290.065 222.055 293.355 ;
-        RECT 95.910 289.890 222.055 290.065 ;
-        RECT 91.355 289.835 222.055 289.890 ;
-        RECT 1.235 0.065 222.055 289.835 ;
+        RECT 181.155 290.065 196.450 293.355 ;
+        RECT 95.910 289.890 196.450 290.065 ;
+        RECT 91.355 289.835 196.450 289.890 ;
+        RECT 1.235 284.710 196.450 289.835 ;
+        RECT 1.235 138.870 187.130 284.710 ;
+        RECT 193.035 201.180 196.450 284.710 ;
+        RECT 202.350 201.180 222.055 293.355 ;
+        RECT 193.035 138.870 222.055 201.180 ;
+        RECT 1.235 135.295 222.055 138.870 ;
+        RECT 1.235 0.065 187.135 135.295 ;
+        RECT 193.035 129.765 222.055 135.295 ;
+        RECT 193.035 9.290 195.785 129.765 ;
+        RECT 201.680 9.290 222.055 129.765 ;
+        RECT 193.035 0.065 222.055 9.290 ;
       LAYER met5 ;
         RECT 29.155 28.510 154.505 265.525 ;
   END

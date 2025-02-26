@@ -617,15 +617,15 @@ Xcdac_lvlshift_array_0 HOLD RST SELD0 SELD1 SELD2 SELD3 SELD4 SELD5 SELD6 SELD7 
 + x1/HOLDB x3/SELD4 DVSS cdac_lvlshift_array
 .ends
 
-.subckt sky130_ef_ip__adc3v_12bit adc0_dac_val_11 adc0_dac_val_10 adc0_dac_val_9 adc0_dac_val_8
-+ adc0_dac_val_7 adc0_dac_val_6 adc0_dac_val_5 adc0_dac_val_4 adc0_dac_val_3 adc0_dac_val_2
-+ adc0_dac_val_1 adc0_dac_val_0 adc0_ena adc0_reset adc0_comp_out adc0_hold adc_vrefL
-+ vccd0 vssd0 adc_vrefH vssa0 vdda0 adc_trim adc_vCM adc0
-Xsky130_ef_ip__scomp3v_0 adc0_comp_out vccd0 adc_aval adc_vCM adc0_ena w_37787_28968#
-+ vssa0 vdda0 w_42552_31630# vssd0 sky130_ef_ip__scomp3v
-Xsky130_ef_ip__cdac3v_12bit_0 adc0_dac_val_2 adc0_dac_val_3 adc0_dac_val_4 adc0_dac_val_5
-+ adc0_dac_val_6 adc0_dac_val_7 adc0_dac_val_8 adc0_dac_val_9 vdda0 vccd0 adc_aval
-+ adc0_reset adc0_dac_val_10 adc0_dac_val_11 sky130_ef_ip__cdac3v_12bit_0/OUTNC adc0_dac_val_0
-+ adc0_dac_val_1 adc_trim adc0 adc0_hold adc_vCM adc_vrefL adc_vrefH vssa0 vssd0 sky130_ef_ip__cdac3v_12bit
+.subckt sky130_ef_ip__adc3v_12bit adc_dac_val[11] adc_dac_val[10] adc_dac_val[9] adc_dac_val[8]
++ adc_dac_val[7] adc_dac_val[6] adc_dac_val[5] adc_dac_val[4] adc_dac_val[3] adc_dac_val[2]
++ adc_dac_val[1] adc_dac_val[0] adc_ena adc_reset adc_comp_out adc_hold adc_vrefL
++ vssd adc_vrefH adc_trim adc_vCM adc_in vccd vdda vssa
+Xsky130_ef_ip__scomp3v_0 adc_comp_out vccd sky130_ef_ip__scomp3v_0/VINP adc_vCM adc_ena
++ w_37787_28968# vssa vdda w_42552_31630# vssd sky130_ef_ip__scomp3v
+Xsky130_ef_ip__cdac3v_12bit_0 adc_dac_val[2] adc_dac_val[3] adc_dac_val[4] adc_dac_val[5]
++ adc_dac_val[6] adc_dac_val[7] adc_dac_val[8] adc_dac_val[9] vdda vccd sky130_ef_ip__scomp3v_0/VINP
++ adc_reset adc_dac_val[10] adc_dac_val[11] sky130_ef_ip__cdac3v_12bit_0/OUTNC adc_dac_val[0]
++ adc_dac_val[1] adc_trim adc_in adc_hold adc_vCM adc_vrefL adc_vrefH vssa vssd sky130_ef_ip__cdac3v_12bit
 .ends
 

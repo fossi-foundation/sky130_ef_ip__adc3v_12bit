@@ -37,10 +37,6 @@ T {0.75v = 3.3*0.223 = 930/4096
 T {12-bit ADC testbench} 0 0 0 0 1 1 {}
 N 1160 520 1200 520 {
 lab=vout}
-N 1160 430 1200 430 {
-lab=vcm}
-N 1200 410 1200 430 {
-lab=vcm}
 N 1160 410 1200 410 {
 lab=vcm}
 N 1200 410 1410 410 {
@@ -105,18 +101,6 @@ N 130 650 170 650 {
 lab=d8}
 N 130 730 170 730 {
 lab=d7}
-N 730 550 860 550 {
-lab=d11}
-N 730 530 860 530 {
-lab=d10}
-N 730 510 860 510 {
-lab=d9}
-N 730 490 860 490 {
-lab=d8}
-N 730 470 860 470 {
-lab=d7}
-N 730 450 860 450 {
-lab=d6}
 N 90 870 130 870 {
 lab=GND}
 N 130 810 170 810 {
@@ -125,8 +109,6 @@ N 130 890 170 890 {
 lab=d5}
 N 90 950 130 950 {
 lab=GND}
-N 730 430 860 430 {
-lab=d5}
 N 560 290 560 610 {
 lab=vin}
 N 560 290 860 290 {
@@ -137,16 +119,12 @@ N 130 970 170 970 {
 lab=d4}
 N 90 1030 130 1030 {
 lab=GND}
-N 730 410 860 410 {
-lab=d4}
 N 130 1050 170 1050 {
 lab=d3}
 N 90 1110 130 1110 {
 lab=GND}
 N 90 470 90 1150 {
 lab=GND}
-N 730 390 860 390 {
-lab=d3}
 N 90 1150 90 1350 {
 lab=GND}
 N 90 1350 130 1350 {
@@ -161,17 +139,15 @@ N 90 1190 130 1190 {
 lab=GND}
 N 90 1270 130 1270 {
 lab=GND}
-N 730 370 860 370 {
-lab=d2}
-N 730 350 860 350 {
-lab=d1}
 N 730 330 860 330 {
-lab=d0}
+lab=d11,d10,d9,d8,d7,d6,d5,d4,d3,d2,d1,d0}
+N 1160 430 1330 430 {
+lab=vss}
 C {sky130_ef_ip__adc3v_12bit.sym} 1010 420 0 0 {name=x1}
 C {devices/vsource.sym} 1410 590 0 0 {name=V1 value=1.65 savecurrent=false}
 C {devices/vsource.sym} 1490 590 0 0 {name=V2 value=3.3 savecurrent=false}
 C {devices/opin.sym} 1200 520 0 0 {name=p1 lab=vout}
-C {devices/lab_pin.sym} 1200 430 0 1 {name=p2 sig_type=std_logic lab=vcm}
+C {devices/lab_pin.sym} 1410 410 0 1 {name=p2 sig_type=std_logic lab=vcm}
 C {devices/vsource.sym} 1560 590 0 0 {name=V3 value=1.8 savecurrent=false}
 C {devices/vsource.sym} 1330 590 0 0 {name=V4 value=0 savecurrent=false}
 C {devices/gnd.sym} 1370 620 0 0 {name=l1 lab=GND}
@@ -205,33 +181,22 @@ C {devices/lab_pin.sym} 170 730 0 1 {name=p16 sig_type=std_logic lab=d7}
 C {devices/vsource.sym} 130 600 0 0 {name=V12 value="PWL(0 0 400n 0 405n 1.8 500n 1.8 505n 1.8)" savecurrent=false}
 C {devices/vsource.sym} 130 680 0 0 {name=V13 value="PWL(0 0 500n 0 505n 1.8 600n 1.8 605n 1.8)" savecurrent=false}
 C {devices/vsource.sym} 130 760 0 0 {name=V14 value="PWL(0 0 600n 0 605n 1.8 700n 1.8 705n 1.8)" savecurrent=false}
-C {devices/lab_pin.sym} 730 550 0 0 {name=p9 sig_type=std_logic lab=d11}
-C {devices/lab_pin.sym} 730 530 0 0 {name=p10 sig_type=std_logic lab=d10}
-C {devices/lab_pin.sym} 730 510 0 0 {name=p17 sig_type=std_logic lab=d9}
-C {devices/lab_pin.sym} 730 490 0 0 {name=p18 sig_type=std_logic lab=d8}
-C {devices/lab_pin.sym} 730 470 0 0 {name=p19 sig_type=std_logic lab=d7}
-C {devices/lab_pin.sym} 730 450 0 0 {name=p20 sig_type=std_logic lab=d6}
 C {devices/lab_pin.sym} 170 810 0 1 {name=p21 sig_type=std_logic lab=d6}
 C {devices/vsource.sym} 130 840 0 0 {name=V7 value="PWL(0 0 700n 0 705n 1.8 800n 1.8 805n 0)" savecurrent=false}
 C {devices/gnd.sym} 90 1350 0 0 {name=l2 lab=GND}
 C {devices/vsource.sym} 130 920 0 0 {name=V8 value="PWL(0 0 800n 0 805n 1.8 900n 1.8 905n 0)" savecurrent=false}
 C {devices/lab_pin.sym} 170 890 0 1 {name=p22 sig_type=std_logic lab=d5}
-C {devices/lab_pin.sym} 730 430 0 0 {name=p23 sig_type=std_logic lab=d5}
 C {devices/vsource.sym} 130 1000 0 0 {name=V15 value="PWL(0 0 900n 0 905n 1.8 1000n 1.8 1005n 1.8)" savecurrent=false}
 C {devices/lab_pin.sym} 170 970 0 1 {name=p24 sig_type=std_logic lab=d4}
-C {devices/lab_pin.sym} 730 410 0 0 {name=p25 sig_type=std_logic lab=d4}
 C {devices/vsource.sym} 130 1080 0 0 {name=V16 value="PWL(0 0 1000n 0 1005n 1.8 1100n 1.8 1105n 1.8)" savecurrent=false}
 C {devices/lab_pin.sym} 170 1050 0 1 {name=p26 sig_type=std_logic lab=d3}
-C {devices/lab_pin.sym} 730 390 0 0 {name=p27 sig_type=std_logic lab=d3}
 C {devices/vsource.sym} 130 1160 0 0 {name=V17 value="PWL(0 0 1100n 0 1105n 1.8 1200n 1.8 1205n 0)" savecurrent=false}
 C {devices/vsource.sym} 130 1240 0 0 {name=V18 value="PWL(0 0 1200n 0 1205n 1.8 1300n 1.8 1305n 0)" savecurrent=false}
 C {devices/vsource.sym} 130 1320 0 0 {name=V19 value="PWL(0 0 1300n 0 1305n 1.8 1400n 1.8 1405n 0)" savecurrent=false}
 C {devices/lab_pin.sym} 170 1130 0 1 {name=p28 sig_type=std_logic lab=d2}
 C {devices/lab_pin.sym} 170 1210 0 1 {name=p29 sig_type=std_logic lab=d1}
 C {devices/lab_pin.sym} 170 1290 0 1 {name=p30 sig_type=std_logic lab=d0}
-C {devices/lab_pin.sym} 730 370 0 0 {name=p31 sig_type=std_logic lab=d2}
-C {devices/lab_pin.sym} 730 350 0 0 {name=p32 sig_type=std_logic lab=d1}
-C {devices/lab_pin.sym} 730 330 0 0 {name=p33 sig_type=std_logic lab=d0}
+C {devices/lab_pin.sym} 730 330 0 0 {name=p33 sig_type=std_logic lab=d11,d10,d9,d8,d7,d6,d5,d4,d3,d2,d1,d0}
 C {devices/launcher.sym} 690 1270 0 0 {name=h1
 descr="Load waves TRAN" 
 tclcommand="

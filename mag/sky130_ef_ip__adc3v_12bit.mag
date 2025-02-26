@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1740586040
+timestamp 1740586604
 << metal2 >>
 rect 41304 28796 41800 29178
 rect 42229 28852 42329 29334
@@ -156,8 +156,7 @@ rect 18410 53331 18426 53488
 rect 17569 53318 18426 53331
 rect 37507 39734 38527 55272
 rect 39370 41079 40390 57207
-rect 39370 40693 44411 41079
-rect 39371 40316 44411 40693
+rect 39370 40316 44411 41079
 rect 37507 33360 37838 39734
 rect 38424 33360 38527 39734
 rect 37507 28002 38527 33360
@@ -269,46 +268,45 @@ timestamp 1731034391
 transform 0 1 40592 -1 0 39838
 box -58 -3122 11186 4094
 << labels >>
-flabel metal5 s 0 55201 40447 56695 0 FreeSans 1600 0 0 0 vssa0
-port 21 nsew ground bidirectional
-flabel metal5 s 0 57136 40447 58630 0 FreeSans 1600 0 0 0 vdda0
-port 22 nsew power bidirectional
-flabel metal3 44616 30496 44742 30558 0 FreeSans 320 180 0 0 adc0_ena
+flabel metal5 0 55201 40447 56695 0 FreeSans 1600 0 0 0 vssa
+port 28 nsew
+flabel metal5 0 57136 40447 58630 0 FreeSans 1600 0 0 0 vdda
+port 27 nsew
+flabel metal3 44616 30496 44742 30558 0 FreeSans 320 180 0 0 adc_ena
 port 13 nsew signal input
-flabel metal3 38945 28207 38954 28215 0 FreeSans 800 0 0 0 adc_aval
-flabel metal3 44566 28861 44703 28921 0 FreeSans 320 180 0 0 adc0_comp_out
+flabel metal3 44566 28861 44703 28921 0 FreeSans 320 180 0 0 adc_comp_out
 port 15 nsew signal output
-flabel metal2 17614 0 17642 300 0 FreeSans 240 90 0 0 adc0_dac_val_0
+flabel metal2 17614 0 17642 300 0 FreeSans 240 90 0 0 adc_dac_val[0]
 port 12 nsew signal input
-flabel metal2 17726 0 17754 300 0 FreeSans 240 90 0 0 adc0_dac_val_1
+flabel metal2 17726 0 17754 300 0 FreeSans 240 90 0 0 adc_dac_val[1]
 port 11 nsew signal input
-flabel metal2 17838 0 17866 300 0 FreeSans 240 90 0 0 adc0_dac_val_2
+flabel metal2 17838 0 17866 300 0 FreeSans 240 90 0 0 adc_dac_val[2]
 port 10 nsew signal input
-flabel metal2 17950 0 17978 300 0 FreeSans 240 90 0 0 adc0_dac_val_3
+flabel metal2 17950 0 17978 300 0 FreeSans 240 90 0 0 adc_dac_val[3]
 port 9 nsew signal input
-flabel metal2 18062 0 18090 300 0 FreeSans 240 90 0 0 adc0_dac_val_4
+flabel metal2 18062 0 18090 300 0 FreeSans 240 90 0 0 adc_dac_val[4]
 port 8 nsew signal input
-flabel metal2 18174 0 18202 300 0 FreeSans 240 90 0 0 adc0_dac_val_5
+flabel metal2 18174 0 18202 300 0 FreeSans 240 90 0 0 adc_dac_val[5]
 port 7 nsew signal input
-flabel metal2 18286 0 18314 300 0 FreeSans 240 90 0 0 adc0_dac_val_6
+flabel metal2 18286 0 18314 300 0 FreeSans 240 90 0 0 adc_dac_val[6]
 port 6 nsew signal input
-flabel metal2 18398 0 18426 300 0 FreeSans 240 90 0 0 adc0_dac_val_7
+flabel metal2 18398 0 18426 300 0 FreeSans 240 90 0 0 adc_dac_val[7]
 port 5 nsew signal input
-flabel metal2 18510 0 18538 300 0 FreeSans 240 90 0 0 adc0_dac_val_8
+flabel metal2 18510 0 18538 300 0 FreeSans 240 90 0 0 adc_dac_val[8]
 port 4 nsew signal input
-flabel metal2 18622 0 18650 300 0 FreeSans 240 90 0 0 adc0_dac_val_9
+flabel metal2 18622 0 18650 300 0 FreeSans 240 90 0 0 adc_dac_val[9]
 port 3 nsew signal input
-flabel metal2 18734 0 18762 300 0 FreeSans 240 90 0 0 adc0_dac_val_10
+flabel metal2 18734 0 18762 300 0 FreeSans 240 90 0 0 adc_dac_val[10]
 port 2 nsew signal input
-flabel metal2 18846 0 18874 300 0 FreeSans 240 90 0 0 adc0_dac_val_11
+flabel metal2 18846 0 18874 300 0 FreeSans 240 90 0 0 adc_dac_val[11]
 port 1 nsew signal input
-flabel metal2 15849 0 15885 300 0 FreeSans 320 270 0 0 adc0_hold
+flabel metal2 15849 0 15885 300 0 FreeSans 320 270 0 0 adc_hold
 port 16 nsew signal input
-flabel metal2 16032 0 16068 300 0 FreeSans 320 90 0 0 adc0_reset
+flabel metal2 16032 0 16068 300 0 FreeSans 320 90 0 0 adc_reset
 port 14 nsew signal input
-flabel metal5 s 0 1938 40263 3506 0 FreeSans 1600 0 0 0 vccd0
-port 18 nsew power bidirectional
-flabel metal5 s 0 13 40287 1581 0 FreeSans 1600 0 0 0 vssd0
+flabel metal5 0 1938 40263 3506 0 FreeSans 1600 0 0 0 vccd
+port 26 nsew
+flabel metal5 s 0 13 40287 1581 0 FreeSans 1600 0 0 0 vssd
 port 19 nsew ground bidirectional
 flabel metal4 17740 58047 18191 58662 0 FreeSans 320 0 0 0 adc_vrefL
 port 17 nsew analog bidirectional
@@ -316,8 +314,16 @@ flabel metal4 18651 58058 19102 58673 0 FreeSans 320 0 0 0 adc_vrefH
 port 20 nsew analog bidirectional
 flabel metal4 35784 58093 36151 58671 0 FreeSans 1600 0 0 0 adc_vCM
 port 24 nsew analog bidirectional
-flabel metal3 0 29210 253 29362 0 FreeSans 1600 0 0 0 adc0
+flabel metal3 0 29210 253 29362 0 FreeSans 1600 0 0 0 adc_in
 port 25 nsew analog input
 flabel metal3 0 42921 166 43056 0 FreeSans 1600 0 0 0 adc_trim
 port 23 nsew analog input
+flabel metal4 s 37507 13 38527 26979 0 FreeSans 1600 90 0 0 vssd
+port 19 nsew
+flabel metal4 s 39237 1938 40256 25873 0 FreeSans 1600 90 0 0 vccd
+port 26 nsew
+flabel metal4 s 37506 27854 38527 56862 0 FreeSans 1600 90 0 0 vssa
+port 28 nsew
+flabel metal4 s 39370 40316 40390 58660 0 FreeSans 1600 90 0 0 vdda
+port 27 nsew
 << end >>

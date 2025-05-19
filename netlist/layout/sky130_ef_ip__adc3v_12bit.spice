@@ -74,32 +74,32 @@ X0 a_129_n250# a_29_n338# a_n29_n250# a_n321_n472# sky130_fd_pr__nfet_g5v0d10v5 
 X1 a_n29_n250# a_n129_n338# a_n187_n250# a_n321_n472# sky130_fd_pr__nfet_g5v0d10v5 ad=0.3625 pd=2.79 as=0.725 ps=5.58 w=2.5 l=0.5
 .ends
 
-.subckt comparator_high_gain VDD VBN VSS VINP VOUT VINM DVDD ena3v3 w_355_n3243# DVSS
+.subckt comparator_high_gain VDD VBN VSS VINP VOUT VINM DVDD ena3v3 DVSS w_306_n3276#
 + m2_4679_n3224#
 XXM12 VDD m1_528_n2416# VDD m1_528_n2416# VDD m1_528_n2416# sky130_fd_pr__pfet_g5v0d10v5_CPKWZQ
-XXM19 m1_4323_402# m1_3254_994# VDD VDD sky130_fd_pr__pfet_g5v0d10v5_6THU7R
-XXM2 w_355_n3243# VINM w_355_n3243# m1_838_n2484# VINM w_355_n3243# m1_838_n2484#
-+ m1_838_n2484# VINM VINM sky130_fd_pr__nfet_g5v0d10v5_R6PXNO
-XXM3 VBN VBN w_355_n3243# VSS VSS w_355_n3243# sky130_fd_pr__nfet_g5v0d10v5_25MXQV
-XXM5 m1_528_n2416# m1_528_n2416# VINM m1_528_n2416# m1_838_n2484# VINM m1_528_n2416#
-+ VINM VINM m1_528_n2416# m1_838_n2484# VINM m1_838_n2484# VINM w_355_n3243# VINM
-+ m1_838_n2484# m1_838_n2484# VINM VINM VINM m1_528_n2416# sky130_fd_pr__nfet_05v0_nvt_N7RQJ6
-XXM8 ena3v3 VDD VDD m1_4323_402# sky130_fd_pr__pfet_g5v0d10v5_3P3PJP
-XXM9 m1_528_n1044# m1_4323_402# m1_528_n1044# m1_528_n1044# m1_4323_402# VDD VDD m1_528_n1044#
+XXM19 m1_4273_452# m1_3154_994# VDD VDD sky130_fd_pr__pfet_g5v0d10v5_6THU7R
+XXM2 w_306_n3276# VINM w_306_n3276# m1_790_n2970# VINM w_306_n3276# m1_790_n2970#
++ m1_790_n2970# VINM VINM sky130_fd_pr__nfet_g5v0d10v5_R6PXNO
+XXM3 VBN VBN w_306_n3276# VSS VSS w_306_n3276# sky130_fd_pr__nfet_g5v0d10v5_25MXQV
+XXM5 m1_528_n2416# m1_528_n2416# VINM m1_528_n2416# m1_790_n2970# VINM m1_528_n2416#
++ VINM VINM m1_528_n2416# m1_790_n2970# VINM m1_790_n2970# VINM w_306_n3276# VINM
++ m1_790_n2970# m1_790_n2970# VINM VINM VINM m1_528_n2416# sky130_fd_pr__nfet_05v0_nvt_N7RQJ6
+XXM8 ena3v3 VDD VDD m1_4273_452# sky130_fd_pr__pfet_g5v0d10v5_3P3PJP
+XXM9 m1_528_n1044# m1_4273_452# m1_528_n1044# m1_528_n1044# m1_4273_452# VDD VDD m1_528_n1044#
 + VDD VDD sky130_fd_pr__pfet_g5v0d10v5_CBUN3Q
 Xsky130_fd_pr__nfet_05v0_nvt_N7RQJ6_0 m1_528_n1044# m1_528_n1044# VINP m1_528_n1044#
 + m1_792_n1578# VINP m1_528_n1044# VINP VINP m1_528_n1044# m1_792_n1578# VINP m1_792_n1578#
-+ VINP w_355_n3243# VINP m1_792_n1578# m1_792_n1578# VINP VINP VINP m1_528_n1044#
++ VINP w_306_n3276# VINP m1_792_n1578# m1_792_n1578# VINP VINP VINP m1_528_n1044#
 + sky130_fd_pr__nfet_05v0_nvt_N7RQJ6
-Xsky130_fd_pr__pfet_g5v0d10v5_5FCQ7L_0 m1_3254_994# m1_3254_994# VOUT DVDD VDD VOUT
+Xsky130_fd_pr__pfet_g5v0d10v5_5FCQ7L_0 m1_3154_994# m1_3154_994# VOUT DVDD VDD VOUT
 + sky130_fd_pr__pfet_g5v0d10v5_5FCQ7L
 Xsky130_fd_pr__pfet_g5v0d10v5_CPKWZQ_0 VDD m1_528_n2416# VDD m1_528_n2416# VDD m1_528_n1044#
 + sky130_fd_pr__pfet_g5v0d10v5_CPKWZQ
-XXM20 m1_3254_994# VSS VSS m1_4323_402# sky130_fd_pr__nfet_g5v0d10v5_VR3TSB
-Xsky130_fd_pr__nfet_g5v0d10v5_R6PXNO_0 w_355_n3243# VINP w_355_n3243# m1_792_n1578#
-+ VINP w_355_n3243# m1_792_n1578# m1_792_n1578# VINP VINP sky130_fd_pr__nfet_g5v0d10v5_R6PXNO
-XXM10 VBN m1_4323_402# VSS VBN m1_4323_402# VSS sky130_fd_pr__nfet_g5v0d10v5_D5V3WB
-XXM22 DVSS m1_3254_994# DVSS m1_3254_994# VOUT VOUT sky130_fd_pr__nfet_g5v0d10v5_TEGW2X
+XXM20 m1_3154_994# VSS VSS m1_4273_452# sky130_fd_pr__nfet_g5v0d10v5_VR3TSB
+Xsky130_fd_pr__nfet_g5v0d10v5_R6PXNO_0 w_306_n3276# VINP w_306_n3276# m1_792_n1578#
++ VINP w_306_n3276# m1_792_n1578# m1_792_n1578# VINP VINP sky130_fd_pr__nfet_g5v0d10v5_R6PXNO
+XXM10 VBN m1_4273_452# VSS VBN m1_4273_452# VSS sky130_fd_pr__nfet_g5v0d10v5_D5V3WB
+XXM22 DVSS m1_3154_994# DVSS m1_3154_994# VOUT VOUT sky130_fd_pr__nfet_g5v0d10v5_TEGW2X
 .ends
 
 .subckt sky130_fd_pr__res_high_po_1p41_3L9D94 a_n141_2684# a_n897_2684# a_615_2684#
@@ -165,9 +165,9 @@ X19 VPWR a_504_1221# a_1197_107# VPB sky130_fd_pr__pfet_g5v0d10v5 ad=0.1113 pd=1
 X0 VNB DIODE sky130_fd_pr__diode_pw2nd_11v0 perim=3.16e+06 area=6.072e+11
 .ends
 
-.subckt sky130_ef_ip__scomp3v VOUT DVDD VINP VINM ENA w_6543_n2805# VSS VDD w_7612_1960#
+.subckt sky130_ef_ip__scomp3v VOUT DVDD VINP VINM ENA w_6509_n2838# VSS VDD w_7612_1960#
 + DVSS
-Xx1 VDD x2/VBN VSS VINP VOUT VINM DVDD x3/X w_6543_n2805# DVSS VSS comparator_high_gain
+Xx1 VDD x2/VBN VSS VINP VOUT VINM DVDD x3/X DVSS w_6509_n2838# VSS comparator_high_gain
 Xx2 VDD VSS x2/VBN x3/X scomp_bias
 Xx3 ENA DVDD DVSS VDD VDD x3/X VDD DVSS DVSS sky130_fd_sc_hvl__lsbuflv2hv_1
 Xsky130_fd_sc_hvl__diode_2_0 ENA DVSS DVSS VDD VDD sky130_fd_sc_hvl__diode_2
@@ -187,23 +187,23 @@ X0 a_129_n200# a_29_n297# a_n29_n200# w_n387_n497# sky130_fd_pr__pfet_g5v0d10v5 
 X1 a_n29_n200# a_n129_n297# a_n187_n200# w_n387_n497# sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=0.5
 .ends
 
-.subckt sky130_fd_pr__nfet_g5v0d10v5_EJGQFX a_129_n200# a_29_n288# a_n129_n288# a_n321_n422#
-+ a_n29_n200# a_n187_n200#
-X0 a_129_n200# a_29_n288# a_n29_n200# a_n321_n422# sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=0.5
-X1 a_n29_n200# a_n129_n288# a_n187_n200# a_n321_n422# sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=0.5
+.subckt sky130_fd_pr__nfet_g5v0d10v5_EJGQFX a_129_n200# a_29_n288# a_n129_n288# a_n29_n200#
++ a_n187_n200# a_n321_n378#
+X0 a_129_n200# a_29_n288# a_n29_n200# a_n321_n378# sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=0.5
+X1 a_n29_n200# a_n129_n288# a_n187_n200# a_n321_n378# sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=0.5
 .ends
 
-.subckt sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8 a_50_n200# a_n242_n422# a_n108_n200# a_n50_n288#
-X0 a_50_n200# a_n50_n288# a_n108_n200# a_n242_n422# sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+.subckt sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8 a_50_n200# a_n108_n200# a_n242_n378# a_n50_n288#
+X0 a_50_n200# a_n50_n288# a_n108_n200# a_n242_n378# sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
 .ends
 
 .subckt simple_analog_switch on off out in vdd vss
 XXM12 out off off off in off out out in vdd sky130_fd_pr__pfet_g5v0d10v5_KLHCT5
 XXM14 on on out out vdd out sky130_fd_pr__pfet_g5v0d10v5_KL97Y6
 XXM16 on on in in vdd in sky130_fd_pr__pfet_g5v0d10v5_KL97Y6
-XXM1 out on on vss in out sky130_fd_pr__nfet_g5v0d10v5_EJGQFX
-XXM3 out vss out off sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
-XXM5 in vss in off sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
+XXM1 out on on in out vss sky130_fd_pr__nfet_g5v0d10v5_EJGQFX
+XXM3 out out vss off sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
+XXM5 in in vss off sky130_fd_pr__nfet_g5v0d10v5_WSEQJ8
 .ends
 
 .subckt EF_SW_RST VP2 VP1 AVDD DVDD AVSS HOLD DVSS HOLDB VIN m3_2464_n194# m3_1864_n2876#
@@ -211,12 +211,12 @@ Xsimple_analog_switch_0 HOLDB HOLD VP2 VIN AVDD AVSS simple_analog_switch
 Xsimple_analog_switch_1 HOLDB HOLD VIN VP1 AVDD AVSS simple_analog_switch
 .ends
 
-.subckt sky130_fd_pr__nfet_g5v0d10v5_N9BQ2J a_n345_n500# a_129_n500# a_287_n500# a_n479_n722#
-+ a_29_n588# a_n129_n588# a_187_n588# a_n287_n588# a_n29_n500# a_n187_n500#
-X0 a_n187_n500# a_n287_n588# a_n345_n500# a_n479_n722# sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=1.45 ps=10.58 w=5 l=0.5
-X1 a_287_n500# a_187_n588# a_129_n500# a_n479_n722# sky130_fd_pr__nfet_g5v0d10v5 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=0.5
-X2 a_129_n500# a_29_n588# a_n29_n500# a_n479_n722# sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
-X3 a_n29_n500# a_n129_n588# a_n187_n500# a_n479_n722# sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+.subckt sky130_fd_pr__nfet_g5v0d10v5_N9BQ2J a_n345_n500# a_129_n500# a_287_n500# a_29_n588#
++ a_n129_n588# a_n479_n678# a_187_n588# a_n287_n588# a_n29_n500# a_n187_n500#
+X0 a_n187_n500# a_n287_n588# a_n345_n500# a_n479_n678# sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=1.45 ps=10.58 w=5 l=0.5
+X1 a_287_n500# a_187_n588# a_129_n500# a_n479_n678# sky130_fd_pr__nfet_g5v0d10v5 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=0.5
+X2 a_129_n500# a_29_n588# a_n29_n500# a_n479_n678# sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
+X3 a_n29_n500# a_n129_n588# a_n187_n500# a_n479_n678# sky130_fd_pr__nfet_g5v0d10v5 ad=0.725 pd=5.29 as=0.725 ps=5.29 w=5 l=0.5
 .ends
 
 .subckt sky130_fd_pr__pfet_g5v0d10v5_KLJ6Y6 a_n345_n500# a_29_n597# a_n129_n597# a_187_n597#
@@ -232,8 +232,8 @@ X6 a_n29_n500# a_n129_n597# a_n187_n500# w_n861_n797# sky130_fd_pr__pfet_g5v0d10
 X7 a_603_n500# a_503_n597# a_445_n500# w_n861_n797# sky130_fd_pr__pfet_g5v0d10v5 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=0.5
 .ends
 
-.subckt simple_analog_switch_2 on off out in vdd vss
-XXM15 in out in vss on on on on in out sky130_fd_pr__nfet_g5v0d10v5_N9BQ2J
+.subckt simple_analog_switch_2 on off vss out in vdd
+XXM15 in out in on on vss on on in out sky130_fd_pr__nfet_g5v0d10v5_N9BQ2J
 XXM4 out off off off in in off vdd out out off off in off off out out in sky130_fd_pr__pfet_g5v0d10v5_KLJ6Y6
 .ends
 
@@ -260,11 +260,11 @@ X3 VGND B Y VNB sky130_fd_pr__nfet_g5v0d10v5 ad=0.21375 pd=2.07 as=0.105 ps=1.03
 
 .subckt EF_AMUX21x vdd1p8 a sel selcm cm vss vo vdd3p3 b dvss
 Xsimple_analog_switch_2_0 sky130_fd_sc_hvl__inv_2_3/A sky130_fd_sc_hvl__inv_2_3/Y
-+ vo a vdd3p3 vss simple_analog_switch_2
++ vss vo a vdd3p3 simple_analog_switch_2
 Xsimple_analog_switch_2_1 sky130_fd_sc_hvl__inv_2_0/A sky130_fd_sc_hvl__inv_2_0/Y
-+ vo b vdd3p3 vss simple_analog_switch_2
++ vss vo b vdd3p3 simple_analog_switch_2
 Xsimple_analog_switch_2_2 sky130_fd_sc_hvl__inv_2_5/Y sky130_fd_sc_hvl__inv_2_5/A
-+ vo cm vdd3p3 vss simple_analog_switch_2
++ vss vo cm vdd3p3 simple_analog_switch_2
 Xsky130_fd_sc_hvl__inv_2_0 sky130_fd_sc_hvl__inv_2_0/A dvss dvss vdd3p3 vdd3p3 sky130_fd_sc_hvl__inv_2_0/Y
 + sky130_fd_sc_hvl__inv_2
 Xsky130_fd_sc_hvl__inv_2_1 selcm dvss dvss vdd3p3 vdd3p3 sky130_fd_sc_hvl__inv_2_5/A
@@ -603,7 +603,7 @@ Xsky130_fd_sc_hvl__decap_4_6 VSS VSS VDD3P3 VDD3P3 sky130_fd_sc_hvl__decap_4
 .ends
 
 .subckt sky130_ef_ip__cdac3v_12bit SELD2 SELD3 SELD4 SELD5 SELD6 SELD7 SELD8 SELD9
-+ VDD DVDD OUT RST SELD10 SELD11 OUTNC SELD0 SELD1 Vref VIN HOLD VCM VL VH VSS DVSS
++ VDD DVDD OUT RST SELD10 SELD11 OUTNC SELD0 SELD1 Vref VIN HOLD VCM VL VH DVSS VSS
 Xx1 OUT OUTNC VDD DVDD VSS x1/HOLD DVSS x1/HOLDB VIN DVDD VSS EF_SW_RST
 Xx3 x3/SELD2 x3/SELD3 x3/SELD0 x3/SELD1 x3/SELD4 x4/D1 x3/SELD5 x3/SELD9 x3/SELD8
 + x4/D5 x3/SELD7 x4/D9 x3/SELD6 x4/D8 x4/D7 DVSS VH VL x3/SELD10 x3/SELD11 VCM x4/D11
@@ -622,10 +622,10 @@ Xcdac_lvlshift_array_0 HOLD RST SELD0 SELD1 SELD2 SELD3 SELD4 SELD5 SELD6 SELD7 
 + adc_dac_val[1] adc_dac_val[0] adc_ena adc_reset adc_comp_out adc_hold adc_vrefL
 + vssd adc_vrefH adc_trim adc_vCM adc_in vccd vdda vssa
 Xsky130_ef_ip__scomp3v_0 adc_comp_out vccd sky130_ef_ip__scomp3v_0/VINP adc_vCM adc_ena
-+ w_37787_28968# vssa vdda w_42552_31630# vssd sky130_ef_ip__scomp3v
++ w_37754_28918# vssa vdda w_42552_31480# vssd sky130_ef_ip__scomp3v
 Xsky130_ef_ip__cdac3v_12bit_0 adc_dac_val[2] adc_dac_val[3] adc_dac_val[4] adc_dac_val[5]
 + adc_dac_val[6] adc_dac_val[7] adc_dac_val[8] adc_dac_val[9] vdda vccd sky130_ef_ip__scomp3v_0/VINP
 + adc_reset adc_dac_val[10] adc_dac_val[11] sky130_ef_ip__cdac3v_12bit_0/OUTNC adc_dac_val[0]
-+ adc_dac_val[1] adc_trim adc_in adc_hold adc_vCM adc_vrefL adc_vrefH vssa vssd sky130_ef_ip__cdac3v_12bit
++ adc_dac_val[1] adc_trim adc_in adc_hold adc_vCM adc_vrefL adc_vrefH vssd vssa sky130_ef_ip__cdac3v_12bit
 .ends
 

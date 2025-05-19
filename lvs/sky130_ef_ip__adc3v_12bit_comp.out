@@ -413,7 +413,7 @@ VOUT                                                |VOUT
 DVSS                                                |DVSS                                                
 VINM                                                |VINM                                                
 VINP                                                |VINP                                                
-w_355_n3243#                                        |(no pin, node is net1)                              
+w_306_n3276#                                        |(no pin, node is net1)                              
 VDD                                                 |VDD                                                 
 m2_4679_n3224#                                      |(no matching pin)                                   
 ---------------------------------------------------------------------------------------------------------
@@ -630,7 +630,7 @@ DVDD                                                |DVDD
 VINP                                                |VINP                                                
 VOUT                                                |VOUT                                                
 VINM                                                |VINM                                                
-w_6543_n2805#                                       |(no pin, node is dummy_22)                          
+w_6509_n2838#                                       |(no pin, node is dummy_22)                          
 VSS                                                 |VSS                                                 
 VDD                                                 |VDD                                                 
 w_7612_1960#                                        |(no matching pin)                                   
